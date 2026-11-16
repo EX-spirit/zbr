@@ -5,33 +5,59 @@
   <meta name='viewport' content='width=device-width, initial-scale=1, viewport-fit=cover'>
   <meta name='browsermode' content='application'>
   <meta name='x5-fullscreen' content='true'>
-  <meta name='theme-color' content='#070913'>
+  <meta name='color-scheme' content='dark'>
+  <meta name='theme-color' id='themeColorMeta' content='#070913'>
+  <meta name='robots' content='noindex,nofollow'>
   <meta name='description' content='给张博冉的专属生日祝福，愿每一岁都奔走在自己的热爱里。'>
+  <meta name='format-detection' content='telephone=no'>
+  <meta property='og:title' content='张博冉 · 生日快乐'>
+  <meta property='og:description' content='一份写给张博冉的生日惊喜。'>
+  <meta property='og:type' content='website'>
+  <meta property='og:locale' content='zh_CN'>
+  <meta property='og:url' content='https://ex-spirit.github.io/zbr-birthday/'>
+  <meta property='og:site_name' content='张博冉 · 生日小宇宙'>
+  <meta property='og:image' content='https://ex-spirit.github.io/zbr-birthday/zhang-boran-memory.jpg'>
+  <meta property='og:image:width' content='1279'>
+  <meta property='og:image:height' content='1962'>
+  <meta property='og:image:alt' content='张博冉的生日写真'>
+  <meta name='twitter:card' content='summary_large_image'>
+  <meta name='twitter:title' content='张博冉 · 生日快乐'>
+  <meta name='twitter:description' content='一份写给张博冉的生日惊喜。'>
+  <meta name='twitter:image' content='https://ex-spirit.github.io/zbr-birthday/zhang-boran-memory.jpg'>
+  <meta name='twitter:image:alt' content='张博冉的生日写真'>
   <title>张博冉 · 生日快乐</title>
+  <link rel='canonical' href='https://ex-spirit.github.io/zbr-birthday/'>
+  <link rel='icon' type='image/svg+xml' href='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Crect width=%2264%22 height=%2264%22 rx=%2214%22 fill=%22%23070a14%22/%3E%3Cpath d=%22M32 9l5.9 15.1L54 30l-16.1 5.9L32 52l-5.9-16.1L10 30l16.1-5.9z%22 fill=%22%23ffe3aa%22/%3E%3C/svg%3E'>
+  <link rel='preload' as='image' href='./zhang-boran-portrait.jpg' media='(min-width: 1001px)' fetchpriority='high'>
   <script>document.documentElement.classList.add('js');</script>
   <style>
     :root {
-      --bg: #070913;
-      --bg-soft: #0c1021;
-      --cream: #fff7e8;
-      --muted: rgba(255, 247, 232, 0.62);
-      --faint: rgba(255, 247, 232, 0.36);
-      --gold: #f6c777;
-      --gold-bright: #ffe1a6;
-      --rose: #ff8da8;
-      --peach: #ffb890;
-      --lilac: #c1b4ff;
-      --aqua: #8be7d0;
+      --bg: #080a14;
+      --bg-soft: #0d1020;
+      --cream: #fff8ec;
+      --muted: rgba(255, 248, 236, 0.68);
+      --faint: rgba(255, 248, 236, 0.44);
+      --gold: #edc77f;
+      --gold-bright: #ffe3aa;
+      --rose: #e9a2b3;
+      --peach: #e9b790;
+      --lilac: #b9acf1;
+      --aqua: #91cdbf;
       --line: rgba(255, 255, 255, 0.12);
-      --line-gold: rgba(246, 199, 119, 0.28);
-      --glass: rgba(14, 18, 38, 0.58);
-      --serif: STZhongsong, Songti SC, Noto Serif SC, SimSun, serif;
-      --sans: PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif;
+      --line-gold: rgba(237, 199, 127, 0.28);
+      --glass: rgba(13, 17, 34, 0.64);
+      --serif: 'Songti SC', 'STZhongsong', 'Noto Serif SC', 'SimSun', serif;
+      --sans: 'PingFang SC', 'HarmonyOS Sans SC', 'Microsoft YaHei', 'Noto Sans SC', sans-serif;
       --ease: cubic-bezier(0.22, 1, 0.36, 1);
     }
 
     * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
+    html {
+      scroll-behavior: smooth;
+      background: #070913;
+      -webkit-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+    }
     body {
       margin: 0;
       min-width: 320px;
@@ -39,16 +65,19 @@
       overflow-x: hidden;
       color: var(--cream);
       background:
-        radial-gradient(circle at 12% 14%, rgba(90, 67, 150, 0.24), transparent 30%),
-        radial-gradient(circle at 88% 18%, rgba(160, 65, 99, 0.18), transparent 27%),
-        radial-gradient(circle at 64% 82%, rgba(35, 101, 105, 0.13), transparent 32%),
+        radial-gradient(circle at 14% 12%, rgba(78, 65, 126, 0.2), transparent 31%),
+        radial-gradient(circle at 88% 17%, rgba(137, 67, 91, 0.13), transparent 28%),
+        radial-gradient(circle at 62% 84%, rgba(77, 95, 105, 0.08), transparent 33%),
+        linear-gradient(155deg, #090b17 0%, #070913 48%, #080a14 100%),
         var(--bg);
       font-family: var(--sans);
       -webkit-font-smoothing: antialiased;
       text-rendering: optimizeLegibility;
     }
+    h1, h2, h3 { text-wrap: balance; }
+    p { text-wrap: pretty; }
     body.locked { overflow: hidden; }
-    button, a { -webkit-tap-highlight-color: transparent; }
+    button, a { -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
     button { color: inherit; font: inherit; }
     a { color: inherit; text-decoration: none; }
     p, h1, h2, h3, blockquote { margin: 0; }
@@ -56,6 +85,28 @@
       outline: 2px solid var(--gold-bright);
       outline-offset: 4px;
     }
+    .memory-main:focus-visible,
+    .memory-collage:focus-visible {
+      outline: 2px solid var(--gold-bright);
+      outline-offset: 5px;
+    }
+    .skip-link {
+      position: fixed;
+      top: max(12px, env(safe-area-inset-top));
+      left: max(12px, env(safe-area-inset-left));
+      z-index: 200;
+      padding: 11px 16px;
+      border: 1px solid rgba(246, 199, 119, 0.38);
+      border-radius: 999px;
+      color: var(--gold-bright);
+      background: rgba(8, 10, 22, 0.94);
+      box-shadow: 0 12px 34px rgba(0, 0, 0, 0.38);
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      transform: translateY(-170%);
+      transition: transform 0.24s var(--ease);
+    }
+    .skip-link:focus-visible { transform: translateY(0); }
     ::selection { color: #140e12; background: var(--gold); }
     [hidden] { display: none !important; }
 
@@ -147,23 +198,23 @@
       position: absolute;
       border-radius: 50%;
       filter: blur(18px);
-      opacity: 0.34;
+      opacity: 0.24;
       mix-blend-mode: screen;
-      animation: orb-drift 18s ease-in-out infinite alternate;
+      animation: orb-drift 26s ease-in-out infinite alternate;
     }
     .ambient__orb--one {
       top: -18vw;
       right: -12vw;
       width: 52vw;
       height: 52vw;
-      background: radial-gradient(circle, rgba(255, 127, 158, 0.16), transparent 68%);
+      background: radial-gradient(circle, rgba(220, 113, 139, 0.11), transparent 68%);
     }
     .ambient__orb--two {
       bottom: -24vw;
       left: -14vw;
       width: 58vw;
       height: 58vw;
-      background: radial-gradient(circle, rgba(116, 104, 218, 0.16), transparent 68%);
+      background: radial-gradient(circle, rgba(107, 97, 192, 0.11), transparent 68%);
       animation-delay: -8s;
     }
     .ambient__orb--three {
@@ -171,14 +222,76 @@
       left: 50%;
       width: 30vw;
       height: 30vw;
-      background: radial-gradient(circle, rgba(84, 190, 172, 0.09), transparent 70%);
+      background: radial-gradient(circle, rgba(104, 154, 146, 0.05), transparent 70%);
       animation-delay: -3s;
+    }
+    .chapter-lights {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      overflow: hidden;
+      pointer-events: none;
+    }
+    .chapter-light {
+      position: absolute;
+      inset: -8%;
+      opacity: 0;
+      mix-blend-mode: screen;
+      transform: translate3d(0, 0, 0) scale(1.02);
+      transition: opacity 1.5s ease;
+      animation: chapter-light-drift 24s ease-in-out infinite alternate;
+      animation-play-state: paused;
+    }
+    .chapter-light.is-active {
+      opacity: 1;
+      animation-play-state: running;
+      will-change: opacity, transform;
+    }
+    .chapter-light--home {
+      background:
+        radial-gradient(ellipse at 78% 36%, rgba(255, 197, 129, 0.17), transparent 44%),
+        radial-gradient(ellipse at 16% 68%, rgba(177, 163, 255, 0.12), transparent 48%),
+        linear-gradient(122deg, rgba(255, 226, 190, 0.06), transparent 48%);
+    }
+    .chapter-light--cake {
+      background:
+        radial-gradient(ellipse at 66% 45%, rgba(255, 164, 82, 0.2), transparent 40%),
+        radial-gradient(ellipse at 27% 79%, rgba(177, 76, 80, 0.12), transparent 45%),
+        linear-gradient(180deg, rgba(255, 214, 159, 0.04), transparent 60%);
+    }
+    .chapter-light--wishes {
+      background:
+        radial-gradient(ellipse at 67% 42%, rgba(255, 125, 164, 0.17), transparent 43%),
+        radial-gradient(ellipse at 22% 70%, rgba(171, 151, 255, 0.16), transparent 48%),
+        linear-gradient(132deg, rgba(255, 205, 218, 0.055), transparent 46%);
+    }
+    .chapter-light--letter {
+      background:
+        radial-gradient(ellipse at 22% 50%, rgba(103, 98, 211, 0.19), transparent 48%),
+        radial-gradient(ellipse at 87% 24%, rgba(225, 136, 151, 0.08), transparent 38%),
+        linear-gradient(180deg, rgba(177, 168, 244, 0.045), transparent 56%);
+    }
+    .chapter-light--memories {
+      background:
+        radial-gradient(ellipse at 72% 46%, rgba(255, 228, 190, 0.18), transparent 43%),
+        radial-gradient(ellipse at 26% 72%, rgba(232, 140, 160, 0.11), transparent 47%),
+        linear-gradient(105deg, rgba(255, 244, 225, 0.055), transparent 48%);
+    }
+    .chapter-light--final {
+      background:
+        radial-gradient(ellipse at 50% 36%, rgba(255, 211, 133, 0.18), transparent 42%),
+        radial-gradient(ellipse at 22% 76%, rgba(95, 108, 196, 0.12), transparent 48%),
+        linear-gradient(180deg, rgba(255, 236, 198, 0.035), transparent 46%);
+    }
+    @keyframes chapter-light-drift {
+      from { transform: translate3d(-1.4%, -0.8%, 0) scale(1.02); }
+      to { transform: translate3d(1.4%, 1.2%, 0) scale(1.06); }
     }
     .grain {
       position: fixed;
       inset: 0;
       z-index: 8;
-      opacity: 0.12;
+      opacity: 0.09;
       pointer-events: none;
       background-image:
         radial-gradient(circle at 18% 32%, rgba(255, 255, 255, 0.035) 0 1px, transparent 1.5px),
@@ -195,7 +308,7 @@
       border-radius: 50%;
       opacity: 0;
       pointer-events: none;
-      background: radial-gradient(circle, rgba(246, 199, 119, 0.075), transparent 66%);
+      background: radial-gradient(circle, rgba(237, 199, 127, 0.055), transparent 66%);
       transition: opacity 0.8s ease;
       will-change: transform;
     }
@@ -431,7 +544,7 @@
     .intro h1 em {
       color: var(--gold-bright);
       font-style: normal;
-      background: linear-gradient(90deg, #ffe8bb, #ff9eb2 55%, #cfc2ff);
+      background: linear-gradient(90deg, #ffe3aa, #e9a2b3 55%, #b9acf1);
       -webkit-background-clip: text;
       background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -486,12 +599,16 @@
       display: grid;
       grid-template-columns: 1fr auto 1fr;
       align-items: center;
-      padding: 20px clamp(18px, 4vw, 54px);
+      padding-top: max(20px, calc(env(safe-area-inset-top) + 10px));
+      padding-right: max(clamp(18px, 4vw, 54px), env(safe-area-inset-right));
+      padding-bottom: 20px;
+      padding-left: max(clamp(18px, 4vw, 54px), env(safe-area-inset-left));
       transition: padding 0.4s ease, background 0.4s ease, border-color 0.4s ease;
       border-bottom: 1px solid transparent;
     }
     .topbar.is-scrolled {
-      padding-block: 12px;
+      padding-top: max(12px, calc(env(safe-area-inset-top) + 6px));
+      padding-bottom: 12px;
       border-bottom-color: rgba(255, 255, 255, 0.07);
       background: rgba(7, 9, 19, 0.72);
       backdrop-filter: blur(18px);
@@ -522,6 +639,81 @@
       letter-spacing: 0.22em;
     }
     .topbar__date i { display: block; width: 4px; height: 4px; border-radius: 50%; background: var(--rose); box-shadow: 0 0 10px var(--rose); }
+    .topbar__center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3px;
+      justify-self: center;
+    }
+    .star-trail {
+      --trail-progress: 0;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 154px;
+      height: 17px;
+      pointer-events: none;
+    }
+    .star-trail__track,
+    .star-trail__fill {
+      position: absolute;
+      left: 7px;
+      top: 50%;
+      height: 1px;
+      transform: translateY(-50%);
+    }
+    .star-trail__track {
+      right: 7px;
+      background: linear-gradient(90deg, rgba(255, 255, 255, 0.07), rgba(246, 199, 119, 0.22), rgba(255, 255, 255, 0.07));
+    }
+    .star-trail__fill {
+      z-index: 1;
+      right: 7px;
+      background: linear-gradient(90deg, var(--gold-bright), var(--rose), var(--lilac));
+      box-shadow: 0 0 12px rgba(246, 199, 119, 0.55);
+      transform: translateY(-50%) scaleX(var(--trail-progress));
+      transform-origin: left center;
+      transition: transform 0.85s var(--ease);
+      will-change: transform;
+    }
+    .star-trail i {
+      position: relative;
+      z-index: 2;
+      display: grid;
+      place-items: center;
+      width: 14px;
+      height: 14px;
+      border: 1px solid rgba(255, 255, 255, 0.13);
+      border-radius: 50%;
+      color: rgba(255, 247, 232, 0.26);
+      background: #090c18;
+      font-style: normal;
+      font-size: 8px;
+      line-height: 1;
+      transition: color 0.4s ease, border-color 0.4s ease, background 0.4s ease, box-shadow 0.4s ease, transform 0.45s var(--ease);
+    }
+    .star-trail i::before { content: '✦'; }
+    .star-trail i.is-lit {
+      color: #3a2414;
+      border-color: rgba(255, 243, 207, 0.62);
+      background: radial-gradient(circle at 34% 28%, #fff9e8, #f7cf83 58%, #df9f54);
+      box-shadow: 0 0 0 1px rgba(255, 238, 192, 0.18), 0 0 15px rgba(246, 199, 119, 0.58);
+      transform: scale(1.14);
+      animation: star-trail-pop 0.7s var(--ease);
+    }
+    .star-trail.is-complete .star-trail__track { box-shadow: 0 0 14px rgba(246, 199, 119, 0.28); }
+    .star-trail.is-complete i.is-lit { animation: star-trail-breathe 2.8s ease-in-out infinite; }
+    @keyframes star-trail-pop {
+      0% { transform: scale(0.5) rotate(-18deg); }
+      58% { transform: scale(1.34) rotate(10deg); }
+      100% { transform: scale(1.14) rotate(0); }
+    }
+    @keyframes star-trail-breathe {
+      0%, 100% { box-shadow: 0 0 0 1px rgba(255, 238, 192, 0.18), 0 0 12px rgba(246, 199, 119, 0.42); }
+      50% { box-shadow: 0 0 0 1px rgba(255, 238, 192, 0.4), 0 0 23px rgba(246, 199, 119, 0.76); }
+    }
     .sound-toggle {
       display: inline-flex;
       align-items: center;
@@ -582,14 +774,14 @@
       font-size: clamp(4.6rem, 9.2vw, 8.1rem);
       line-height: 0.93;
       letter-spacing: -0.055em;
-      text-shadow: 0 16px 50px rgba(255, 182, 142, 0.08);
+      text-shadow: 0 16px 50px rgba(233, 183, 144, 0.07);
     }
     .hero__wish {
       display: block;
       margin-top: clamp(8px, 1.2vw, 16px);
       padding-left: 0.08em;
       color: transparent;
-      background: linear-gradient(92deg, #ffe6b5 0%, #ffa1b4 48%, #c8bcff 100%);
+      background: linear-gradient(92deg, #ffe3aa 0%, #e9a2b3 48%, #b9acf1 100%);
       -webkit-background-clip: text;
       background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -654,6 +846,15 @@
       font-size: clamp(1.25rem, 2.2vw, 1.8rem);
       letter-spacing: 0.08em;
     }
+    .countdown__today::before {
+      content: 'HAPPY BIRTHDAY · 11.18';
+      display: block;
+      margin-bottom: 7px;
+      color: var(--faint);
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 8px;
+      letter-spacing: 0.28em;
+    }
     .countdown.is-today .countdown__grid { display: none; }
     .countdown.is-today .countdown__today { display: block; }
     .hero__actions {
@@ -679,10 +880,10 @@
       transition: transform 0.35s var(--ease), box-shadow 0.35s ease, border-color 0.35s ease, background 0.35s ease;
     }
     .primary-button {
-      border: 1px solid rgba(255, 225, 166, 0.74);
+      border: 1px solid rgba(255, 227, 170, 0.66);
       color: #171018;
-      background: linear-gradient(110deg, #ffe8b9, #ffc57b 52%, #ffaf9d);
-      box-shadow: 0 10px 30px rgba(246, 199, 119, 0.15);
+      background: linear-gradient(110deg, #ffe9c2, #edc67e 54%, #e6aa91);
+      box-shadow: 0 10px 30px rgba(237, 199, 127, 0.13);
       font-weight: 600;
     }
     .primary-button::before {
@@ -697,13 +898,14 @@
       transition: left 0.7s var(--ease);
     }
     .primary-button:hover::before { left: 120%; }
-    .primary-button:hover { transform: translateY(-2px); box-shadow: 0 16px 38px rgba(246, 199, 119, 0.24); }
+    .primary-button:hover { transform: translateY(-2px); box-shadow: 0 16px 38px rgba(237, 199, 127, 0.2); }
     .ghost-button {
       border: 1px solid rgba(255, 255, 255, 0.15);
       color: var(--muted);
       background: rgba(255, 255, 255, 0.025);
     }
     .ghost-button:hover { color: var(--cream); border-color: rgba(255, 255, 255, 0.3); background: rgba(255, 255, 255, 0.055); transform: translateY(-2px); }
+    .ghost-button:disabled { opacity: 0.5; cursor: wait; transform: none; }
     .ghost-button span { font-size: 15px; }
     .hero__scroll {
       position: absolute;
@@ -1445,6 +1647,10 @@
       transform: translateY(-6px) rotateX(0.8deg) scale(1.004);
     }
     .blessing-card:active { transform: translateY(-2px) scale(0.992); }
+    .blessing-card:focus-visible {
+      outline: 2px solid var(--blessing-accent);
+      outline-offset: 5px;
+    }
     .blessing-card.is-leaving {
       opacity: 0;
       transform: translate3d(72%, -16%, 0) rotateZ(8deg) rotateY(-32deg) scale(0.86);
@@ -1552,8 +1758,8 @@
     }
     .text-button:hover:not(:disabled) { color: var(--blessing-accent); border-color: var(--blessing-accent); background: var(--blessing-surface-a); transform: translateY(-1px); }
     .text-button:disabled { opacity: 0.55; cursor: wait; }
-    .text-button span { transition: transform 0.4s var(--ease); }
-    .text-button:hover span { transform: rotate(180deg); }
+    .text-button > span[aria-hidden='true'] { transition: transform 0.4s var(--ease); }
+    .text-button:hover > span[aria-hidden='true'] { transform: rotate(180deg); }
     @keyframes blessing-sheen {
       0% { opacity: 0; transform: translateX(-135%); }
       24% { opacity: 0.85; }
@@ -1972,6 +2178,405 @@
     }
     .star-reset:hover { color: var(--gold); }
 
+    .slide--memories { display: flex; align-items: center; }
+    .memories-slide {
+      position: relative;
+      display: grid;
+      grid-template-columns: minmax(0, 0.78fr) minmax(470px, 1.22fr);
+      align-items: center;
+      gap: clamp(34px, 5.5vw, 80px);
+      width: min(1160px, 100%);
+      min-height: 100%;
+      margin: auto;
+    }
+    .memories-copy { position: relative; z-index: 5; }
+    .memories-copy h2 {
+      margin-top: 22px;
+      font-family: var(--serif);
+      font-size: clamp(2.35rem, 4.4vw, 4rem);
+      font-weight: 500;
+      line-height: 1.3;
+      letter-spacing: 0.02em;
+    }
+    .memories-copy h2 em {
+      font-style: normal;
+      color: transparent;
+      background: linear-gradient(92deg, #ffe3aa, #e9a2b3 56%, #b9acf1);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .memories-text {
+      max-width: 430px;
+      margin-top: 20px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.95;
+      letter-spacing: 0.035em;
+    }
+    .memories-ribbon {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      margin-top: 25px;
+      color: var(--faint);
+      font-family: Georgia, serif;
+      font-size: 8px;
+      letter-spacing: 0.18em;
+    }
+    .memories-ribbon span:first-child { color: var(--gold); }
+    .memories-ribbon i { width: 34px; height: 1px; background: linear-gradient(90deg, rgba(246, 199, 119, 0.5), transparent); }
+    .memories-copy .slide-next { align-self: flex-start; margin-top: 27px; }
+
+    .memory-stage {
+      --memory-rx: 0deg;
+      --memory-ry: 0deg;
+      --memory-glow-x: 52%;
+      --memory-glow-y: 45%;
+      --memory-shine-x: 58%;
+      --memory-shine-y: 38%;
+      --memory-main-x: 0px;
+      --memory-main-y: 0px;
+      --memory-collage-x: 0px;
+      --memory-collage-y: 0px;
+      position: relative;
+      width: 100%;
+      height: clamp(520px, 64vh, 620px);
+      perspective: 980px;
+      perspective-origin: 50% 46%;
+      isolation: isolate;
+      touch-action: pan-y;
+    }
+    .memory-stage::before {
+      content: '';
+      position: absolute;
+      left: var(--memory-glow-x);
+      top: var(--memory-glow-y);
+      z-index: -1;
+      width: 72%;
+      aspect-ratio: 1;
+      border-radius: 50%;
+      background:
+        radial-gradient(circle, rgba(255, 221, 155, 0.28), transparent 38%),
+        radial-gradient(circle at 70% 68%, rgba(193, 180, 255, 0.2), transparent 52%);
+      filter: blur(22px);
+      transform: translate(-50%, -50%);
+      transition: left 0.45s ease, top 0.45s ease;
+      pointer-events: none;
+    }
+    .memory-depth-floor {
+      position: absolute;
+      left: 12%;
+      bottom: 1%;
+      z-index: 0;
+      width: 76%;
+      height: 54px;
+      border-radius: 50%;
+      background: radial-gradient(ellipse, rgba(0, 0, 0, 0.5), rgba(74, 45, 69, 0.2) 46%, transparent 74%);
+      filter: blur(14px);
+      transform: rotate(-3deg);
+      pointer-events: none;
+    }
+    .memory-ghost {
+      position: absolute;
+      z-index: 1;
+      border: 1px solid rgba(255, 226, 168, 0.2);
+      background:
+        linear-gradient(135deg, rgba(255, 247, 226, 0.1), transparent 42%),
+        rgba(126, 96, 121, 0.08);
+      box-shadow: 0 22px 42px rgba(0, 0, 0, 0.18);
+      pointer-events: none;
+    }
+    .memory-ghost--main {
+      left: 7%;
+      top: 6%;
+      width: min(55%, 292px);
+      aspect-ratio: 1279 / 1962;
+      border-radius: 42% 42% 14px 14px / 17% 17% 10px 10px;
+      transform: translateZ(-36px) rotate(-6.5deg);
+    }
+    .memory-ghost--collage {
+      right: 4%;
+      bottom: 6%;
+      width: min(40%, 210px);
+      aspect-ratio: 2 / 3;
+      border-radius: 9px;
+      transform: translateZ(22px) rotate(8.5deg);
+    }
+    .memory-live-light {
+      position: absolute;
+      inset: -3%;
+      z-index: 6;
+      border-radius: 50%;
+      background: radial-gradient(circle at var(--memory-shine-x) var(--memory-shine-y), rgba(255, 248, 226, 0.3), rgba(255, 205, 225, 0.1) 18%, transparent 43%);
+      mix-blend-mode: screen;
+      opacity: 0.75;
+      transform: translateZ(24px);
+      pointer-events: none;
+    }
+    .memory-stage::after {
+      content: '';
+      position: absolute;
+      inset: 8% 5% 7%;
+      z-index: -1;
+      border: 1px solid rgba(246, 199, 119, 0.09);
+      border-radius: 50%;
+      box-shadow: inset 0 0 70px rgba(246, 199, 119, 0.025);
+      pointer-events: none;
+    }
+    .memory-orbit {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 86%;
+      aspect-ratio: 1;
+      border: 1px dashed rgba(246, 199, 119, 0.15);
+      border-radius: 50%;
+      transform: translate(-50%, -50%) rotate(-14deg);
+      animation: memory-orbit-spin 42s linear infinite;
+      pointer-events: none;
+    }
+    .memory-orbit--two {
+      width: 66%;
+      border-style: solid;
+      border-color: rgba(193, 180, 255, 0.1);
+      animation-direction: reverse;
+      animation-duration: 55s;
+    }
+    .memory-scene {
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+      transform: rotateX(var(--memory-rx)) rotateY(var(--memory-ry)) translateZ(0);
+      transform-style: preserve-3d;
+      transition: transform 0.28s cubic-bezier(0.22, 0.8, 0.24, 1);
+    }
+    .memory-main,
+    .memory-collage {
+      margin: 0;
+      cursor: pointer;
+      transform-style: preserve-3d;
+      will-change: transform;
+    }
+    .memory-main {
+      position: absolute;
+      left: 4%;
+      top: 2%;
+      z-index: 3;
+      width: min(58%, 296px);
+      padding: 10px 10px 14px;
+      overflow: hidden;
+      border: 1px solid rgba(255, 231, 174, 0.9);
+      border-radius: 42% 42% 14px 14px / 17% 17% 10px 10px;
+      background: linear-gradient(145deg, #fffaf0, #ead8b7);
+      box-shadow:
+        2px 2px 0 rgba(255, 252, 239, 0.8),
+        5px 5px 0 rgba(217, 184, 125, 0.95),
+        9px 9px 0 rgba(110, 75, 48, 0.78),
+        0 36px 72px rgba(0, 0, 0, 0.48),
+        0 0 0 1px rgba(255, 255, 255, 0.28) inset,
+        0 0 46px rgba(246, 199, 119, 0.14);
+      animation: memory-main-float 8.6s ease-in-out infinite;
+    }
+    .memory-main::before,
+    .memory-collage::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      z-index: 3;
+      background: linear-gradient(112deg, transparent 23%, rgba(255, 255, 255, 0.26) 45%, transparent 66%) 180% 0 / 220% 100% no-repeat;
+      animation: memory-sheen 9.8s ease-in-out infinite;
+      pointer-events: none;
+    }
+    .memory-main::after {
+      content: '✦';
+      position: absolute;
+      top: 13px;
+      right: 15px;
+      z-index: 4;
+      color: #fff1c4;
+      font-size: 20px;
+      text-shadow: 0 0 14px rgba(255, 222, 146, 0.95);
+      pointer-events: none;
+    }
+    .memory-main img {
+      display: block;
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      aspect-ratio: 1279 / 1962;
+      object-fit: contain;
+      border-radius: 38% 38% 7px 7px / 14% 14% 5% 5%;
+      filter: saturate(1.02) contrast(1.04) brightness(0.96);
+    }
+    .memory-main figcaption,
+    .memory-collage figcaption {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 10px 8px 0;
+      color: #4d3826;
+      text-align: left;
+    }
+    .memory-main figcaption span,
+    .memory-collage figcaption span {
+      color: rgba(72, 51, 34, 0.58);
+      font-family: Georgia, serif;
+      font-size: 6px;
+      letter-spacing: 0.16em;
+      white-space: nowrap;
+    }
+    .memory-main figcaption strong,
+    .memory-collage figcaption strong {
+      color: #3b291d;
+      font-family: var(--serif);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      white-space: nowrap;
+    }
+    .memory-collage {
+      position: absolute;
+      right: 1%;
+      bottom: 2%;
+      z-index: 5;
+      width: min(44%, 232px);
+      padding: 8px 8px 11px;
+      border: 1px solid rgba(255, 241, 209, 0.9);
+      border-radius: 9px;
+      background: #fffaf0;
+      box-shadow:
+        2px 2px 0 rgba(255, 253, 244, 0.82),
+        5px 5px 0 rgba(200, 181, 227, 0.86),
+        8px 8px 0 rgba(75, 54, 73, 0.72),
+        0 30px 64px rgba(0, 0, 0, 0.48),
+        0 0 38px rgba(193, 180, 255, 0.13);
+      animation: memory-collage-float 9.6s ease-in-out infinite;
+    }
+    .memory-collage::before {
+      content: '';
+      position: absolute;
+      top: -10px;
+      left: 50%;
+      z-index: 5;
+      width: 58px;
+      height: 19px;
+      border: 1px solid rgba(255, 242, 207, 0.4);
+      background: linear-gradient(110deg, rgba(255, 234, 183, 0.58), rgba(255, 255, 255, 0.2));
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.17);
+      transform: translateX(-50%) rotate(-3deg);
+      pointer-events: none;
+    }
+    .memory-collage img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 2 / 3;
+      object-fit: cover;
+      border-radius: 5px;
+      filter: saturate(1.02) contrast(1.03) brightness(0.96);
+    }
+    .memory-collage figcaption { padding: 8px 5px 2px; }
+    .memory-collage figcaption span { font-size: 5.5px; }
+    .memory-collage figcaption strong { font-size: 9px; }
+    .memory-seal {
+      position: absolute;
+      left: 42%;
+      bottom: 13%;
+      z-index: 7;
+      display: grid;
+      place-items: center;
+      width: 70px;
+      height: 70px;
+      border: 1px solid rgba(255, 226, 168, 0.78);
+      border-radius: 50%;
+      color: #342114;
+      background: radial-gradient(circle at 34% 26%, #fff9e8, #f4c66f 66%, #c4863e);
+      box-shadow: 0 14px 34px rgba(0, 0, 0, 0.3), 0 0 24px rgba(246, 199, 119, 0.3);
+      font-family: Georgia, serif;
+      font-size: 22px;
+      line-height: 0.8;
+      text-align: center;
+      animation: memory-seal-pulse 3.6s ease-in-out infinite;
+      pointer-events: none;
+    }
+    .memory-seal small { display: block; margin-top: 5px; font-size: 5px; letter-spacing: 0.18em; }
+    .memory-spark {
+      position: absolute;
+      z-index: 8;
+      color: var(--gold-bright);
+      font-size: 15px;
+      text-shadow: 0 0 12px rgba(246, 199, 119, 0.9), 0 0 28px rgba(193, 180, 255, 0.42);
+      animation: memory-twinkle 3.2s ease-in-out infinite;
+      pointer-events: none;
+    }
+    .memory-spark--a { top: 10%; right: 5%; }
+    .memory-spark--b { top: 45%; left: 0; color: #d6cbff; font-size: 10px; animation-delay: -1.1s; }
+    .memory-spark--c { right: 7%; bottom: 17%; font-size: 9px; animation-delay: -2.1s; }
+    .memory-spark--d { left: 22%; bottom: 5%; color: #ffd9e3; font-size: 7px; animation-delay: -0.6s; }
+    .memory-depth-hint {
+      position: absolute;
+      top: 3%;
+      right: 0;
+      z-index: 9;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      margin: 0;
+      padding: 7px 10px 7px 8px;
+      border: 1px solid rgba(255, 236, 194, 0.16);
+      border-radius: 999px;
+      color: rgba(255, 244, 218, 0.68);
+      background: rgba(32, 22, 42, 0.34);
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.2);
+      font-family: Georgia, serif;
+      font-size: 7px;
+      letter-spacing: 0.13em;
+      pointer-events: none;
+      backdrop-filter: blur(10px);
+    }
+    .memory-depth-hint span {
+      display: grid;
+      place-items: center;
+      width: 25px;
+      height: 18px;
+      border-radius: 6px;
+      color: #3b2819;
+      background: linear-gradient(135deg, #fff3cf, #e9b85f);
+      box-shadow: 0 0 16px rgba(246, 199, 119, 0.38);
+      font-size: 7px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+    }
+    .memory-depth-hint__label { font-weight: 400; }
+
+    @keyframes memory-main-float {
+      0%, 100% { transform: translate3d(var(--memory-main-x), var(--memory-main-y), 38px) rotate(-2.7deg); }
+      50% { transform: translate3d(var(--memory-main-x), calc(var(--memory-main-y) - 10px), 38px) rotate(-1.2deg); }
+    }
+    @keyframes memory-collage-float {
+      0%, 100% { transform: translate3d(var(--memory-collage-x), var(--memory-collage-y), 104px) rotate(5.2deg); }
+      50% { transform: translate3d(calc(var(--memory-collage-x) + 3px), calc(var(--memory-collage-y) - 13px), 104px) rotate(3.4deg); }
+    }
+    @keyframes memory-orbit-spin { to { transform: translate(-50%, -50%) rotate(346deg); } }
+    @keyframes memory-sheen {
+      0%, 100% { background-position: 180% 0; opacity: 0.42; }
+      48% { background-position: -60% 0; opacity: 0.8; }
+    }
+    @keyframes memory-seal-pulse {
+      0%, 100% { transform: rotate(-8deg) scale(0.96); box-shadow: 0 14px 34px rgba(0, 0, 0, 0.3), 0 0 18px rgba(246, 199, 119, 0.24); }
+      50% { transform: rotate(5deg) scale(1.05); box-shadow: 0 18px 40px rgba(0, 0, 0, 0.34), 0 0 36px rgba(246, 199, 119, 0.5); }
+    }
+    @keyframes memory-twinkle {
+      0%, 100% { opacity: 0.2; transform: translateY(3px) scale(0.7) rotate(-8deg); }
+      50% { opacity: 1; transform: translateY(-6px) scale(1.18) rotate(8deg); }
+    }
+    .memory-scene.is-celebrating { animation: memory-photo-flash 0.72s ease; }
+    @keyframes memory-photo-flash {
+      0%, 100% { filter: none; }
+      42% { filter: brightness(1.12) drop-shadow(0 0 26px rgba(255, 221, 155, 0.42)); }
+    }
+
     .final {
       position: relative;
       display: flex;
@@ -2008,14 +2613,134 @@
     .final h2 em {
       font-style: normal;
       color: transparent;
-      background: linear-gradient(92deg, #ffe4ae, #ff9db0 55%, #cbc1ff);
+      background: linear-gradient(92deg, #ffe3aa, #e9a2b3 55%, #b9acf1);
       -webkit-background-clip: text;
       background-clip: text;
       -webkit-text-fill-color: transparent;
     }
     .final__lead { position: relative; max-width: 520px; margin-top: 20px; color: var(--muted); font-size: 13px; line-height: 1.9; letter-spacing: 0.04em; }
-    .final .primary-button { position: relative; margin-top: 34px; }
-    .final__date { position: relative; margin-top: 38px; color: var(--faint); font-family: Georgia, serif; font-size: 9px; letter-spacing: 0.32em; }
+    .final__letter {
+      position: relative;
+      width: min(560px, 100%);
+      margin-top: 24px;
+      padding: 21px 28px 19px;
+      border-top: 1px solid rgba(246, 199, 119, 0.2);
+      border-bottom: 1px solid rgba(246, 199, 119, 0.13);
+      background: linear-gradient(90deg, transparent, rgba(255, 244, 216, 0.035) 20%, rgba(255, 244, 216, 0.035) 80%, transparent);
+    }
+    .final__letter::before,
+    .final__letter::after {
+      content: '✦';
+      position: absolute;
+      top: 50%;
+      color: rgba(246, 199, 119, 0.48);
+      font-size: 8px;
+      transform: translateY(-50%);
+    }
+    .final__letter::before { left: 6px; }
+    .final__letter::after { right: 6px; }
+    .final__letter-kicker {
+      color: var(--faint);
+      font-family: Georgia, serif;
+      font-size: 7px;
+      letter-spacing: 0.28em;
+    }
+    .final__letter-text {
+      margin-top: 10px;
+      color: rgba(255, 249, 236, 0.88);
+      font-family: var(--serif);
+      font-size: 15px;
+      line-height: 1.9;
+      letter-spacing: 0.055em;
+    }
+    .final__signature {
+      margin-top: 12px;
+      color: var(--gold-bright);
+      font-family: 'KaiTi', 'STKaiti', var(--serif);
+      font-size: 15px;
+      letter-spacing: 0.08em;
+    }
+    .final__actions {
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 30px;
+    }
+    .final__actions .primary-button,
+    .final__actions .ghost-button { margin-top: 0; }
+    .final__date { position: relative; margin-top: 30px; color: var(--faint); font-family: Georgia, serif; font-size: 9px; letter-spacing: 0.32em; }
+
+    .memory-dialog {
+      position: fixed;
+      inset: 0;
+      width: min(430px, calc(100vw - 28px));
+      max-height: calc(100svh - 28px);
+      margin: auto;
+      padding: 23px 23px 20px;
+      overflow: auto;
+      border: 1px solid rgba(255, 230, 178, 0.22);
+      border-radius: 28px;
+      color: var(--cream);
+      background:
+        radial-gradient(circle at 84% 4%, rgba(193, 180, 255, 0.14), transparent 34%),
+        radial-gradient(circle at 11% 92%, rgba(255, 147, 173, 0.11), transparent 36%),
+        linear-gradient(155deg, #161126, #0a0c1b 62%, #120d1c);
+      box-shadow: 0 38px 110px rgba(0, 0, 0, 0.66), inset 0 1px 0 rgba(255, 255, 255, 0.07);
+      scrollbar-width: none;
+    }
+    .memory-dialog::-webkit-scrollbar { display: none; }
+    .memory-dialog::backdrop {
+      background: rgba(4, 5, 12, 0.82);
+      backdrop-filter: blur(12px);
+    }
+    .memory-dialog[open] { animation: memory-dialog-in 0.42s cubic-bezier(0.2, 0.9, 0.24, 1); }
+    @keyframes memory-dialog-in {
+      from { opacity: 0; transform: translateY(18px) scale(0.96); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+    .memory-dialog__close {
+      position: absolute;
+      top: 12px;
+      right: 13px;
+      display: grid;
+      place-items: center;
+      width: 31px;
+      height: 31px;
+      padding: 0;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+      color: var(--muted);
+      background: rgba(255, 255, 255, 0.035);
+      font-size: 19px;
+      line-height: 1;
+      cursor: pointer;
+    }
+    .memory-dialog__eyebrow { color: var(--faint); font-family: Georgia, serif; font-size: 7px; letter-spacing: 0.26em; }
+    .memory-dialog h3 { margin-top: 7px; font-family: var(--serif); font-size: 25px; font-weight: 500; letter-spacing: 0.08em; }
+    .memory-dialog__preview {
+      margin-top: 16px;
+      padding: 7px;
+      border: 1px solid rgba(255, 238, 204, 0.13);
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.025);
+      box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.18);
+    }
+    .memory-dialog__preview img {
+      display: block;
+      width: 100%;
+      max-height: calc(100svh - 250px);
+      object-fit: contain;
+      border-radius: 12px;
+      background: #0b0c1b;
+    }
+    .memory-dialog__note { margin-top: 11px; color: var(--faint); text-align: center; font-size: 9px; letter-spacing: 0.08em; }
+    .memory-dialog__actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 9px; margin-top: 15px; }
+    .memory-dialog__actions .primary-button,
+    .memory-dialog__actions .ghost-button { min-height: 41px; padding-inline: 17px; font-size: 10px; }
+    .primary-button.is-disabled { opacity: 0.42; pointer-events: none; }
     .footer {
       position: relative;
       z-index: 10;
@@ -2091,8 +2816,11 @@
       .lucky__text { max-width: 360px; }
     }
     @media (max-width: 700px) {
-      .topbar { grid-template-columns: 1fr auto; padding: 15px 18px; }
-      .topbar.is-scrolled { padding-block: 10px; }
+      .topbar {
+        grid-template-columns: 1fr auto;
+        padding: max(15px, calc(env(safe-area-inset-top) + 8px)) max(18px, env(safe-area-inset-right)) 15px max(18px, env(safe-area-inset-left));
+      }
+      .topbar.is-scrolled { padding-top: max(10px, calc(env(safe-area-inset-top) + 6px)); padding-bottom: 10px; }
       .topbar__date { display: none; }
       .brand { gap: 9px; }
       .brand__mark { width: 34px; height: 34px; font-size: 17px; }
@@ -2153,7 +2881,7 @@
     }
     @media (max-width: 420px) {
       .sound-toggle #soundLabel { display: none; }
-      .sound-toggle { width: 38px; height: 34px; justify-content: center; padding: 0; }
+      .sound-toggle { width: 42px; height: 40px; justify-content: center; padding: 0; }
       .hero { padding-top: 100px; }
       .hero__name { font-size: clamp(3.3rem, 20vw, 4.8rem); }
       .hero__wish { font-size: clamp(1.95rem, 10.5vw, 2.8rem); }
@@ -2184,8 +2912,10 @@
       position: relative;
       z-index: 2;
       width: 100%;
+      height: 100vh;
       height: 100svh;
       overflow: hidden;
+      touch-action: pan-y pinch-zoom;
     }
     .slides {
       display: flex;
@@ -2199,6 +2929,7 @@
       position: relative;
       flex: 0 0 100%;
       width: 100%;
+      height: 100vh;
       height: 100svh;
       padding: 100px clamp(24px, 5vw, 58px) 104px;
       overflow-x: hidden;
@@ -2208,11 +2939,65 @@
       opacity: 0.36;
       transform: scale(0.985);
       transition: opacity 0.6s ease, transform 0.75s var(--ease);
+      isolation: isolate;
     }
     .slide::-webkit-scrollbar { display: none; }
     .slide.is-active { opacity: 1; transform: none; }
     .slide[aria-hidden='true'] { pointer-events: none; }
     .slide:focus { outline: none; }
+    .slide::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      pointer-events: none;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.012), transparent 24%, rgba(0, 0, 0, 0.08));
+      transition: opacity 0.9s ease;
+    }
+    .slide::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      pointer-events: none;
+      background: radial-gradient(ellipse at 50% 44%, transparent 48%, rgba(0, 0, 0, 0.13) 100%);
+    }
+    .slide--hero::before {
+      background:
+        radial-gradient(ellipse at 78% 42%, rgba(237, 199, 127, 0.075), transparent 44%),
+        radial-gradient(ellipse at 18% 30%, rgba(112, 93, 177, 0.07), transparent 48%),
+        linear-gradient(120deg, rgba(255, 199, 146, 0.025), transparent 42%);
+    }
+    .slide--cake::before {
+      background:
+        radial-gradient(ellipse at 67% 50%, rgba(236, 168, 94, 0.11), transparent 42%),
+        radial-gradient(ellipse at 24% 76%, rgba(162, 83, 76, 0.04), transparent 46%),
+        linear-gradient(180deg, rgba(255, 220, 172, 0.014), transparent 58%);
+    }
+    .slide--wishes::before {
+      background:
+        radial-gradient(ellipse at 68% 42%, rgba(197, 107, 143, 0.075), transparent 43%),
+        radial-gradient(ellipse at 26% 64%, rgba(128, 111, 205, 0.075), transparent 48%),
+        linear-gradient(132deg, rgba(255, 205, 218, 0.018), transparent 44%);
+    }
+    .slide--letter::before {
+      background:
+        radial-gradient(ellipse at 24% 52%, rgba(88, 85, 172, 0.1), transparent 48%),
+        radial-gradient(ellipse at 85% 26%, rgba(187, 109, 119, 0.045), transparent 36%),
+        linear-gradient(180deg, rgba(177, 168, 244, 0.018), transparent 52%);
+    }
+    .slide--memories::before {
+      background:
+        radial-gradient(ellipse at 72% 48%, rgba(255, 228, 190, 0.065), transparent 43%),
+        radial-gradient(ellipse at 30% 68%, rgba(215, 132, 151, 0.045), transparent 46%),
+        linear-gradient(105deg, rgba(255, 244, 225, 0.018), transparent 46%);
+    }
+    .slide--final::before {
+      background:
+        radial-gradient(ellipse at 50% 40%, rgba(237, 199, 127, 0.08), transparent 43%),
+        radial-gradient(ellipse at 50% 100%, rgba(0, 0, 0, 0.36), transparent 54%),
+        linear-gradient(180deg, rgba(255, 230, 187, 0.012), transparent 38%);
+    }
 
     .page-progress {
       position: fixed;
@@ -2264,43 +3049,80 @@
     }
     .page-arrow:hover:not(:disabled) { color: var(--gold-bright); border-color: var(--line-gold); background: rgba(246, 199, 119, 0.07); transform: translateY(-1px); }
     .page-arrow:disabled { opacity: 0.26; cursor: not-allowed; }
-    .page-dots { display: flex; align-items: center; gap: 4px; }
+    .page-dots {
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding-inline: 5px;
+    }
+    .page-dots::before {
+      content: '';
+      position: absolute;
+      left: 19px;
+      right: 19px;
+      top: 50%;
+      height: 1px;
+      background: linear-gradient(90deg, rgba(246, 199, 119, 0.07), rgba(246, 199, 119, 0.34), rgba(193, 180, 255, 0.22), rgba(246, 199, 119, 0.07));
+      opacity: 0.72;
+      transform: translateY(-50%);
+      transition: opacity 0.5s ease, box-shadow 0.5s ease;
+      pointer-events: none;
+    }
+    .page-dots.is-complete::before {
+      opacity: 1;
+      box-shadow: 0 0 16px rgba(246, 199, 119, 0.42);
+    }
     .page-dot {
       position: relative;
+      z-index: 1;
       display: grid;
       place-items: center;
-      width: 34px;
-      height: 34px;
+      width: 30px;
+      height: 30px;
       padding: 0;
       border: 0;
       border-radius: 50%;
       color: rgba(255, 247, 232, 0.38);
-      background: transparent;
+      background: rgba(10, 13, 28, 0.62);
       font-family: Georgia, Times New Roman, serif;
-      font-size: 8px;
-      letter-spacing: 0.1em;
+      font-size: 0;
       cursor: pointer;
-      transition: color 0.3s ease, background 0.35s ease, transform 0.35s var(--ease);
+      transition: color 0.35s ease, background 0.35s ease, box-shadow 0.35s ease, transform 0.35s var(--ease);
+    }
+    .page-dot::before {
+      content: '✦';
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      font-size: 10px;
+      line-height: 1;
+      transform: translate(-50%, -50%) rotate(0deg) scale(0.84);
+      transition: transform 0.4s var(--ease), text-shadow 0.4s ease;
     }
     .page-dot::after {
-      content: '';
-      position: absolute;
-      bottom: 5px;
-      left: 50%;
-      width: 3px;
-      height: 3px;
-      border-radius: 50%;
-      background: currentColor;
-      opacity: 0.45;
-      transform: translateX(-50%);
+      display: none;
     }
     .page-dot:hover { color: var(--cream); background: rgba(255, 255, 255, 0.04); }
-    .page-dot.is-active {
-      color: #171018;
-      background: linear-gradient(135deg, var(--gold-bright), var(--peach));
-      box-shadow: 0 0 20px rgba(246, 199, 119, 0.25);
+    .page-dot.is-visited {
+      color: rgba(255, 218, 144, 0.88);
+      background: rgba(246, 199, 119, 0.07);
+      box-shadow: inset 0 0 0 1px rgba(246, 199, 119, 0.14);
     }
-    .page-dot.is-active::after { opacity: 0.7; background: #3a2624; }
+    .page-dot.is-visited::before {
+      text-shadow: 0 0 10px rgba(246, 199, 119, 0.58);
+      transform: translate(-50%, -50%) rotate(12deg) scale(0.95);
+    }
+    .page-dot.is-active {
+      color: #2a1a12;
+      background: radial-gradient(circle at 34% 28%, #fff9e8, #f7cf83 58%, #e8a961);
+      box-shadow: 0 0 0 1px rgba(255, 238, 192, 0.48), 0 0 24px rgba(246, 199, 119, 0.38);
+      transform: scale(1.08);
+    }
+    .page-dot.is-active::before {
+      transform: translate(-50%, -50%) rotate(18deg) scale(1.18);
+      text-shadow: none;
+    }
     .page-nav__meta {
       display: flex;
       align-items: center;
@@ -2425,11 +3247,11 @@
       bottom: 0;
       z-index: 3;
       width: clamp(162px, 30%, 212px);
-      aspect-ratio: 530 / 650;
+      aspect-ratio: 500 / 620;
       border-radius: 45% 45% 23% 23% / 30% 30% 18% 18%;
       pointer-events: none;
       transform-origin: 50% 94%;
-      animation: star-friend-float 5.2s ease-in-out infinite;
+      animation: star-friend-float 6.6s ease-in-out infinite;
       filter: drop-shadow(0 24px 35px rgba(0, 0, 0, 0.4));
     }
     .hero-art__friend::before {
@@ -2458,7 +3280,7 @@
       display: block;
       width: 100%;
       height: 100%;
-      object-fit: contain;
+      object-fit: cover;
       user-select: none;
       -webkit-user-drag: none;
       border: 3px solid rgba(255, 231, 174, 0.72);
@@ -2466,7 +3288,7 @@
       box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.16), 0 18px 38px rgba(3, 5, 16, 0.5), 0 0 32px rgba(246, 199, 119, 0.14);
       transform-origin: 50% 88%;
       animation: star-friend-breathe 3.8s ease-in-out infinite;
-      filter: saturate(1.04) contrast(1.02) brightness(1.02);
+      filter: saturate(1.02) contrast(1.04) brightness(0.95);
     }
     .star-friend__spark {
       position: absolute;
@@ -2487,8 +3309,8 @@
       68% { transform: translate3d(-2px, -13px, 0) rotate(1.5deg); }
     }
     @keyframes star-friend-breathe {
-      0%, 100% { transform: scale(1); filter: saturate(1.03) brightness(1) drop-shadow(0 6px 8px rgba(69, 31, 23, 0.18)); }
-      50% { transform: scale(1.018); filter: saturate(1.08) brightness(1.045) drop-shadow(0 9px 13px rgba(69, 31, 23, 0.16)); }
+      0%, 100% { transform: scale(1); filter: saturate(1.01) contrast(1.03) brightness(0.95) drop-shadow(0 6px 8px rgba(69, 31, 23, 0.18)); }
+      50% { transform: scale(1.014); filter: saturate(1.04) contrast(1.04) brightness(0.99) drop-shadow(0 9px 13px rgba(69, 31, 23, 0.16)); }
     }
     @keyframes star-friend-aura {
       0%, 100% { opacity: 0.55; transform: scale(0.94); }
@@ -2635,8 +3457,8 @@
       .slide--wishes .blessing-deck { min-height: 320px; }
       .page-nav { gap: 4px; padding: 5px; bottom: max(12px, env(safe-area-inset-bottom)); }
       .page-arrow { width: 34px; height: 34px; }
-      .page-dot { width: 28px; height: 28px; font-size: 7px; }
-      .page-dot::after { bottom: 3px; width: 2px; height: 2px; }
+      .page-dots { gap: 7px; }
+      .page-dot { width: 27px; height: 27px; font-size: 0; }
       .page-nav__meta { display: none; }
       .hero-art { min-height: 0; }
       .hero__name { font-size: clamp(3.55rem, 18vw, 5.3rem); }
@@ -2656,27 +3478,95 @@
       .slide--letter .star-field { height: 218px; }
       .slide--final .final h2 { font-size: clamp(2.7rem, 12vw, 4.4rem); }
       .slide--final .final__lead { font-size: 12px; }
+      .final__letter { margin-top: 17px; padding: 16px 19px 14px; }
+      .final__letter-text { font-size: 12px; line-height: 1.8; }
+      .final__signature { margin-top: 8px; font-size: 13px; }
+      .final__actions { margin-top: 20px; gap: 9px; }
+      .final__date { margin-top: 20px; }
+      .memory-dialog { padding: 21px 16px 16px; border-radius: 24px; }
+      .memory-dialog__preview img { max-height: calc(100svh - 280px); }
       .toast { bottom: 78px; }
     }
     @media (max-width: 420px) {
       .slide { padding-inline: 14px; }
-      .page-dot { width: 26px; height: 26px; }
+      .page-dot { width: 25px; height: 25px; }
       .slide--wishes .blessing-deck { min-height: 300px; }
       .blessing-card__foot { flex-direction: column; align-items: stretch; gap: 14px; }
       .blessing-card__hint { max-width: none; }
       .blessing-card__controls { justify-content: space-between; }
       .cake-slide .cake-scene { height: 300px; }
       .cake-slide .cake { width: min(84%, 280px); }
+      .final__letter::before, .final__letter::after { display: none; }
+      .final__actions { width: 100%; }
+      .final__actions .primary-button, .final__actions .ghost-button { width: 100%; }
+      .memory-dialog { width: calc(100vw - 20px); padding: 19px 13px 14px; }
+      .memory-dialog h3 { font-size: 22px; }
+      .memory-dialog__actions .primary-button, .memory-dialog__actions .ghost-button { width: 100%; }
+    }
+    @media (max-width: 1000px) {
+      .memories-slide { grid-template-columns: 1fr; gap: 22px; min-height: 0; text-align: center; }
+      .memories-copy { max-width: 720px; margin: 0 auto; }
+      .memories-copy .eyebrow, .memories-ribbon { justify-content: center; }
+      .memories-copy .slide-next { align-self: center; }
+      .memory-stage { width: min(620px, 100%); height: 440px; margin: 0 auto; perspective: 860px; }
+      .memory-main { left: 6%; width: min(54%, 225px); }
+      .memory-collage { right: 2%; width: min(43%, 190px); }
+      .memory-seal { width: 62px; height: 62px; font-size: 19px; }
+      .memory-ghost--main { left: 9%; width: min(53%, 230px); }
+      .memory-ghost--collage { right: 1%; width: min(39%, 172px); }
+    }
+    @media (max-width: 700px) {
+      .memories-slide { gap: 13px; }
+      .memories-copy h2 { margin-top: 10px; font-size: clamp(1.9rem, 8.4vw, 2.8rem); }
+      .memories-text { max-width: 340px; margin-top: 10px; font-size: 12px; line-height: 1.75; }
+      .memories-ribbon { margin-top: 11px; font-size: 7px; }
+      .memories-copy .slide-next { margin-top: 11px; font-size: 10px; }
+      .memory-stage { height: 360px; perspective: 760px; }
+      .memory-main { left: 4%; top: 3%; width: min(58%, 185px); padding: 7px 7px 12px; }
+      .memory-collage { right: 0; width: min(46%, 168px); padding: 6px 6px 9px; }
+      .memory-main figcaption span, .memory-collage figcaption span { font-size: 4.5px; }
+      .memory-main figcaption strong { font-size: 9px; }
+      .memory-collage figcaption strong { font-size: 7px; }
+      .memory-seal { left: 40%; bottom: 12%; width: 54px; height: 54px; font-size: 16px; }
+      .memory-ghost { opacity: 0.48; }
+      .memory-ghost--main { left: 8%; width: min(54%, 180px); }
+      .memory-ghost--collage { width: min(40%, 138px); }
+      .memory-depth-hint { top: 1%; padding: 5px 8px 5px 6px; font-size: 6px; letter-spacing: 0.08em; }
+      .memory-depth-hint span { width: 22px; height: 16px; font-size: 6px; }
+    }
+    @media (max-width: 420px) {
+      .memory-stage { height: 330px; }
+      .memory-main { width: min(58%, 180px); }
+      .memory-collage { width: min(48%, 142px); }
+      .memory-seal { width: 46px; height: 46px; font-size: 14px; }
+      .memory-ghost { display: none; }
     }
     @media (max-width: 900px) {
       .glass-card, .star-card, .cake-panel, .page-nav { backdrop-filter: none; }
     }
+    @media (max-width: 1000px) and (orientation: portrait) {
+      .hero-art {
+        display: block;
+        order: -1;
+        height: auto;
+        min-height: 0;
+        margin: 0 auto 8px;
+      }
+      .hero-art__orbit, .hero-art__caption { display: none; }
+      .hero-art__friend {
+        position: relative;
+        left: auto;
+        bottom: auto;
+        width: min(122px, 31vw);
+        margin: 0 auto;
+      }
+    }
     @media (orientation: landscape) and (max-height: 620px) and (max-width: 1180px) {
       .topbar {
         grid-template-columns: 1fr auto;
-        padding: 7px max(14px, env(safe-area-inset-right)) 7px max(14px, env(safe-area-inset-left));
+        padding: max(7px, calc(env(safe-area-inset-top) + 4px)) max(14px, env(safe-area-inset-right)) 7px max(14px, env(safe-area-inset-left));
       }
-      .topbar.is-scrolled { padding-block: 6px; }
+      .topbar.is-scrolled { padding-top: max(6px, calc(env(safe-area-inset-top) + 3px)); padding-bottom: 6px; }
       .topbar__date { display: none; }
       .brand { gap: 7px; }
       .brand__mark { width: 29px; height: 29px; font-size: 14px; }
@@ -2691,9 +3581,10 @@
         padding-right: max(20px, env(safe-area-inset-right));
       }
       .page-nav { bottom: max(4px, env(safe-area-inset-bottom)); gap: 3px; padding: 3px; }
-      .page-arrow { width: 28px; height: 28px; font-size: 12px; }
-      .page-dot { width: 24px; height: 24px; font-size: 6.5px; }
-      .page-dot::after { bottom: 3px; width: 2px; height: 2px; }
+      .page-arrow { width: 34px; height: 34px; font-size: 13px; }
+      .page-dots { gap: 5px; }
+      .page-dot { width: 34px; height: 34px; font-size: 0; }
+      .page-dot::before { font-size: 8px; }
       .page-nav__meta, .dot-guide { display: none; }
       .toast { bottom: 46px; padding: 8px 15px; font-size: 10px; }
 
@@ -2873,13 +3764,47 @@
       .final__eyebrow { font-size: 7px; }
       .final h2 { margin-top: 7px; font-size: clamp(2rem, 6.2vh, 3rem); line-height: 1.12; }
       .final__lead { max-width: 560px; margin-top: 7px; font-size: 10px; line-height: 1.55; }
-      .final .primary-button { min-height: 34px; margin-top: 11px; padding: 0 15px; font-size: 9.5px; }
-      .final__date { margin-top: 10px; font-size: 7px; }
+      .final__letter { margin-top: 8px; padding: 7px 15px 6px; }
+      .final__letter-kicker { display: none; }
+      .final__letter-text { margin-top: 0; font-size: 9px; line-height: 1.45; }
+      .final__signature { margin-top: 3px; font-size: 8.5px; }
+      .final__actions { margin-top: 8px; gap: 6px; }
+      .final__actions .primary-button, .final__actions .ghost-button { min-height: 32px; margin-top: 0; padding: 0 12px; font-size: 8.5px; }
+      .final__date { margin-top: 8px; font-size: 7px; }
       .final .slide-next { margin-top: 7px; font-size: 8.5px; }
       .slide--final .final::before { height: 260px; }
+      .memory-dialog { max-height: calc(100svh - 16px); padding: 14px 16px 12px; }
+      .memory-dialog__preview { margin-top: 9px; }
+      .memory-dialog__preview img { max-height: calc(100svh - 210px); }
+      .memory-dialog__actions { margin-top: 8px; }
+
+      .slide--memories { align-items: center; }
+      .memories-slide {
+        grid-template-columns: minmax(0, 0.82fr) minmax(330px, 1.18fr);
+        gap: 18px;
+        min-height: 0;
+        text-align: left;
+      }
+      .memories-copy { max-width: none; margin: 0; }
+      .memories-copy .eyebrow, .memories-ribbon { justify-content: flex-start; }
+      .memories-copy h2 { margin-top: 7px; font-size: clamp(1.55rem, 4.5vh, 2.2rem); line-height: 1.18; }
+      .memories-text { max-width: 360px; margin-top: 7px; font-size: 9.5px; line-height: 1.5; }
+      .memories-ribbon { margin-top: 8px; font-size: 6.5px; }
+      .memories-copy .slide-next { align-self: flex-start; margin-top: 8px; font-size: 9px; }
+      .memory-stage { height: clamp(210px, calc(100svh - 160px), 310px); margin: 0 auto; perspective: 800px; }
+      .memory-main { left: 4%; top: 2%; width: clamp(118px, 32vh, 200px); padding: 6px 6px 10px; }
+      .memory-collage { right: 0; bottom: 1%; width: clamp(92px, 24vh, 150px); padding: 5px 5px 8px; }
+      .memory-seal { left: 40%; bottom: 12%; width: 48px; height: 48px; font-size: 14px; }
+      .memory-main figcaption, .memory-collage figcaption { padding-top: 5px; }
+      .memory-main figcaption span, .memory-collage figcaption span { font-size: 4px; }
+      .memory-main figcaption strong { font-size: 8px; }
+      .memory-collage figcaption strong { font-size: 6px; }
+      .memory-ghost { display: none; }
+      .memory-depth-hint { top: 0; padding: 4px 7px 4px 5px; font-size: 5.5px; }
+      .memory-depth-hint span { width: 20px; height: 14px; font-size: 5.5px; }
     }
     @media (orientation: landscape) and (max-height: 370px) and (max-width: 900px) {
-      .topbar { padding-block: 4px; }
+      .topbar { padding-top: max(4px, calc(env(safe-area-inset-top) + 2px)); padding-bottom: 4px; }
       .slide { padding-top: 42px; padding-bottom: 46px; }
       .hero__lead { display: -webkit-box; overflow: hidden; -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
       .hero__name { font-size: clamp(1.9rem, 8vh, 2.65rem); }
@@ -2926,15 +3851,392 @@
       .star-field { height: 108px; }
       .slide--final .final h2 { font-size: 1.85rem; }
       .slide--final .final__lead { display: none; }
+      .final__letter { margin-top: 3px; padding: 4px 10px; }
+      .final__letter-text { font-size: 8px; line-height: 1.4; }
+      .final__signature { margin-top: 2px; font-size: 7.5px; }
+      .final__actions { margin-top: 5px; }
+      .final__date { margin-top: 5px; }
+      .memories-text, .memories-ribbon { display: none; }
+      .memories-copy h2 { margin-top: 4px; font-size: 1.35rem; }
+      .memories-copy .slide-next { margin-top: 5px; font-size: 8.5px; }
+      .memory-stage { height: 195px; }
+      .memory-main { width: clamp(96px, 30vh, 115px); }
+      .memory-collage { width: clamp(78px, 22vh, 90px); }
+      .memory-seal { width: 40px; height: 40px; font-size: 12px; }
+      .memory-depth-hint__label { display: none; }
+      .memory-depth-hint { padding: 3px; border-radius: 8px; }
     }
+    @media (max-width: 700px) {
+      .primary-button, .ghost-button { min-height: 44px; font-size: 11px; }
+      .slide-next { min-height: 40px; font-size: 11px; }
+      .hero__lead { font-size: 14px; line-height: 1.85; }
+      .cake-slide__text { font-size: 13px; line-height: 1.8; }
+      .letter-body { font-size: 12.5px; line-height: 1.9; }
+      .memories-text { font-size: 12.5px; line-height: 1.8; }
+      .blessing-card__hint { font-size: 9px; line-height: 1.55; }
+      .star-progress { font-size: 10px; }
+      .star-instruction { font-size: 12px; line-height: 1.65; }
+      .final__date { font-size: 8px; }
+      .memory-dialog__note { font-size: 10px; line-height: 1.55; }
+    }
+    body.is-low-power .ambient__orb { opacity: 0.14; animation-duration: 42s; }
+    body.is-low-power .grain,
+    body.is-low-power .cursor-glow { display: none; }
+    body.is-low-power .shooting-star { animation-duration: 20s; }
+    body.is-low-power .memory-orbit { animation-duration: 76s; }
+    body.is-low-power .memory-spark,
+    body.is-low-power .hero-art__spark,
+    body.is-low-power .star-friend__spark { animation-duration: 4.6s; }
+    body.is-birthday .ambient__orb--one { opacity: 0.34; animation-duration: 18s; }
+    body.is-birthday .countdown {
+      border-left-color: rgba(255, 227, 170, 0.72);
+      border-radius: 0 18px 18px 0;
+      background: linear-gradient(90deg, rgba(237, 199, 127, 0.075), transparent 82%);
+    }
+    body.is-birthday .countdown__heading { color: var(--gold-bright); }
+    body.is-birthday .countdown__today { text-shadow: 0 0 30px rgba(255, 227, 170, 0.28); }
+    body.is-birthday .page-progress span { box-shadow: 0 0 20px rgba(255, 227, 170, 0.55); }
+
+    /* Narrative chapters and interaction polish */
+    .chapter-cue {
+      position: fixed;
+      top: max(68px, calc(env(safe-area-inset-top) + 58px));
+      left: 50%;
+      z-index: 58;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 7px 13px;
+      border: 1px solid rgba(255, 226, 168, 0.16);
+      border-radius: 999px;
+      color: var(--faint);
+      background: rgba(8, 11, 23, 0.58);
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.18);
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 8px;
+      letter-spacing: 0.14em;
+      opacity: 0;
+      transform: translate(-50%, -10px);
+      pointer-events: none;
+      transition: opacity 0.32s ease, transform 0.45s var(--ease);
+      backdrop-filter: blur(12px);
+    }
+    .chapter-cue.is-visible { opacity: 1; transform: translate(-50%, 0); }
+    .chapter-cue span { color: var(--gold); font-size: 9px; }
+    .chapter-cue i { width: 18px; height: 1px; background: linear-gradient(90deg, var(--gold), transparent); }
+    .chapter-cue b { color: var(--cream); font-weight: 400; letter-spacing: 0.16em; }
+
+    .blessing-card__secret-tag {
+      position: absolute;
+      top: 16px;
+      left: 50%;
+      z-index: 3;
+      display: none;
+      padding: 3px 8px;
+      border: 1px solid rgba(255, 244, 216, 0.24);
+      border-radius: 999px;
+      color: #fff4d8;
+      background: rgba(255, 244, 216, 0.07);
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 6px;
+      letter-spacing: 0.2em;
+      transform: translateX(-50%);
+      pointer-events: none;
+    }
+    .blessing-card.is-secret {
+      --blessing-accent: #fff4d8;
+      --blessing-border: rgba(255, 244, 216, 0.38);
+      --blessing-glow: rgba(255, 232, 180, 0.24);
+      --blessing-surface-a: rgba(255, 235, 190, 0.19);
+      --blessing-surface-b: rgba(193, 180, 255, 0.09);
+      border-color: var(--blessing-border);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.16), 0 34px 92px rgba(0, 0, 0, 0.25), 0 0 78px -18px var(--blessing-glow);
+    }
+    .blessing-card.is-secret .blessing-card__secret-tag { display: block; }
+    .blessing-card.is-secret::after { color: rgba(255, 244, 216, 0.18); }
+    .blessing-card.is-secret .blessing-card__title { letter-spacing: 0.22em; }
+
+    .constellation-reward {
+      position: absolute;
+      left: 50%;
+      bottom: 5%;
+      z-index: 3;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2px;
+      width: max-content;
+      max-width: 88%;
+      padding: 6px 12px;
+      border: 1px solid rgba(255, 226, 168, 0.2);
+      border-radius: 999px;
+      background: rgba(12, 13, 27, 0.48);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+      text-align: center;
+      opacity: 0;
+      transform: translate(-50%, 12px) scale(0.96);
+      pointer-events: none;
+      transition: opacity 0.7s ease, transform 0.8s var(--ease);
+      backdrop-filter: blur(10px);
+    }
+    .star-field.is-complete .constellation-reward {
+      opacity: 1;
+      transform: translate(-50%, 0) scale(1);
+      animation: constellation-reward-glow 3.2s ease-in-out infinite;
+    }
+    .constellation-reward span { color: var(--gold-bright); font-size: 9px; text-shadow: 0 0 12px rgba(246, 199, 119, 0.8); }
+    .constellation-reward b { color: var(--gold-bright); font-family: Georgia, 'Times New Roman', serif; font-size: 6px; font-weight: 400; letter-spacing: 0.2em; }
+    .constellation-reward small { color: var(--muted); font-size: 7px; letter-spacing: 0.06em; }
+    @keyframes constellation-reward-glow {
+      0%, 100% { box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18), 0 0 18px rgba(246, 199, 119, 0.08); }
+      50% { box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18), 0 0 30px rgba(246, 199, 119, 0.2); }
+    }
+
+    .photo-dialog {
+      position: fixed;
+      width: min(920px, calc(100vw - 28px));
+      max-height: calc(100svh - 28px);
+      margin: auto;
+      padding: 15px;
+      overflow: auto;
+      border: 1px solid rgba(255, 230, 178, 0.22);
+      border-radius: 28px;
+      color: var(--cream);
+      background:
+        radial-gradient(circle at 88% 5%, rgba(193, 180, 255, 0.13), transparent 34%),
+        radial-gradient(circle at 9% 96%, rgba(255, 147, 173, 0.1), transparent 36%),
+        linear-gradient(155deg, #151123, #0a0c1b 66%, #110d1a);
+      box-shadow: 0 40px 120px rgba(0, 0, 0, 0.72), inset 0 1px 0 rgba(255, 255, 255, 0.07);
+      scrollbar-width: none;
+    }
+    .photo-dialog::-webkit-scrollbar { display: none; }
+    .photo-dialog::backdrop { background: rgba(4, 5, 12, 0.84); backdrop-filter: blur(14px); }
+    .photo-dialog[open] { animation: memory-dialog-in 0.42s cubic-bezier(0.2, 0.9, 0.24, 1); }
+    .photo-dialog__frame {
+      display: grid;
+      place-items: center;
+      width: 100%;
+      padding: 7px;
+      border: 1px solid rgba(255, 238, 204, 0.13);
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.025);
+      box-shadow: inset 0 0 34px rgba(0, 0, 0, 0.2);
+    }
+    .photo-dialog__frame img {
+      display: block;
+      width: auto;
+      max-width: 100%;
+      max-height: calc(100svh - 196px);
+      object-fit: contain;
+      border-radius: 14px;
+      background: #0b0c1b;
+    }
+    .photo-dialog__meta { padding: 13px 18px 6px; text-align: center; }
+    .photo-dialog__meta span { color: var(--gold); font-family: Georgia, 'Times New Roman', serif; font-size: 7px; letter-spacing: 0.24em; }
+    .photo-dialog__meta h3 { margin-top: 5px; color: var(--cream); font-family: var(--serif); font-size: clamp(1.25rem, 3vw, 1.8rem); font-weight: 500; letter-spacing: 0.1em; }
+    .photo-dialog__meta p { max-width: 620px; margin: 7px auto 0; color: var(--muted); font-size: 11px; line-height: 1.75; }
+    .photo-dialog__close { top: 10px; right: 10px; }
+
+    .final__phases {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      margin-top: 14px;
+    }
+    .final__phases i {
+      width: 15px;
+      height: 2px;
+      border-radius: 999px;
+      background: rgba(255, 248, 236, 0.14);
+      transition: width 0.55s var(--ease), background 0.45s ease, box-shadow 0.45s ease;
+    }
+    .final__phases i.is-active { width: 30px; background: linear-gradient(90deg, var(--gold), var(--rose)); box-shadow: 0 0 14px rgba(246, 199, 119, 0.34); }
+    .slide--final.is-sequence-armed .final__eyebrow,
+    .slide--final.is-sequence-armed .final h2,
+    .slide--final.is-sequence-armed .final__lead,
+    .slide--final.is-sequence-armed .final__phases,
+    .slide--final.is-sequence-armed .final__letter,
+    .slide--final.is-sequence-armed .final__actions,
+    .slide--final.is-sequence-armed .final__date,
+    .slide--final.is-sequence-armed .final > .slide-next {
+      opacity: 0;
+      transform: translateY(14px);
+    }
+    .slide--final.is-sequence-armed:not(.is-copy-ready) .final__actions,
+    .slide--final.is-sequence-armed:not(.is-copy-ready) .final > .slide-next {
+      pointer-events: none;
+    }
+    .slide--final.is-sequence-armed.is-copy-ready .final__eyebrow { animation: final-copy-in 0.7s var(--ease) 0s both; }
+    .slide--final.is-sequence-armed.is-copy-ready .final h2 { animation: final-copy-in 0.9s var(--ease) 0.08s both; }
+    .slide--final.is-sequence-armed.is-copy-ready .final__lead { animation: final-copy-in 0.8s var(--ease) 0.2s both; }
+    .slide--final.is-sequence-armed.is-copy-ready .final__phases { animation: final-copy-in 0.7s var(--ease) 0.28s both; }
+    .slide--final.is-sequence-armed.is-copy-ready .final__letter { animation: final-copy-in 0.85s var(--ease) 0.38s both; }
+    .slide--final.is-sequence-armed.is-copy-ready .final__actions { animation: final-copy-in 0.8s var(--ease) 0.52s both; }
+    .slide--final.is-sequence-armed.is-copy-ready .final__date { animation: final-copy-in 0.7s var(--ease) 0.64s both; }
+    .slide--final.is-sequence-armed.is-copy-ready .final > .slide-next { animation: final-copy-in 0.7s var(--ease) 0.72s both; }
+    @keyframes final-copy-in {
+      from { opacity: 0; transform: translateY(14px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .slide:not(.is-active) .memory-main,
+    .slide:not(.is-active) .memory-collage,
+    .slide:not(.is-active) .memory-orbit,
+    .slide:not(.is-active) .memory-spark,
+    .slide:not(.is-active) .memory-live-light,
+    .slide:not(.is-active) .hero-art__orbit,
+    .slide:not(.is-active) .hero-art__friend,
+    .slide:not(.is-active) .hero-art__friend-img,
+    .slide:not(.is-active) .star-friend,
+    .slide:not(.is-active) .star-friend__spark,
+    .slide:not(.is-active) .cake-orbit,
+    .slide:not(.is-active) .cake-glow,
+    .slide:not(.is-active) .candle .flame,
+    .slide:not(.is-active) .candle .ember,
+    .slide:not(.is-active) .plate::after {
+      animation-play-state: paused;
+    }
+    body.is-low-power .slide:not(.is-active) .memory-main,
+    body.is-low-power .slide:not(.is-active) .memory-collage,
+    body.is-low-power .slide:not(.is-active) .memory-orbit,
+    body.is-low-power .slide:not(.is-active) .memory-spark,
+    body.is-low-power .slide:not(.is-active) .hero-art__orbit,
+    body.is-low-power .slide:not(.is-active) .star-friend,
+    body.is-low-power .slide:not(.is-active) .candle .flame,
+    body.is-low-power .slide:not(.is-active) .candle .ember {
+      animation-play-state: paused;
+    }
+    body.is-ios:not(.is-birthday) .ambient__orb { animation-duration: 52s; opacity: 0.13; }
+    body.is-low-power .ambient__orb { animation: none; }
+    body.is-low-power .chapter-light { animation: none; }
+    body.is-low-power .topbar.is-scrolled { backdrop-filter: none; background: rgba(7, 9, 19, 0.88); }
+
+    @media (max-width: 700px) {
+      .topbar { grid-template-columns: 1fr auto auto; }
+      .topbar__center { gap: 1px; }
+      .star-trail { width: 112px; height: 15px; }
+      .star-trail i { width: 12px; height: 12px; font-size: 7px; }
+      .star-trail__track, .star-trail__fill { left: 6px; }
+      .star-trail__track { right: 6px; }
+      .chapter-cue { top: max(62px, calc(env(safe-area-inset-top) + 52px)); gap: 7px; padding: 5px 10px; font-size: 7px; }
+      .chapter-cue b { letter-spacing: 0.11em; }
+      .page-arrow { width: 42px; height: 42px; }
+      .page-dot { width: 40px; height: 40px; }
+      .page-dots { gap: 4px; }
+      .page-nav { max-width: calc(100vw - 12px); }
+      .constellation-reward { bottom: 3%; padding: 4px 9px; }
+      .constellation-reward b { font-size: 5px; }
+      .constellation-reward small { font-size: 6px; }
+      .blessing-card__secret-tag { top: 10px; font-size: 5px; }
+      .final__phases { margin-top: 9px; }
+      .photo-dialog { width: calc(100vw - 16px); padding: 10px; border-radius: 22px; }
+      .photo-dialog__frame { padding: 5px; border-radius: 16px; }
+      .photo-dialog__frame img { max-height: calc(100svh - 178px); border-radius: 11px; }
+      .photo-dialog__meta { padding: 9px 10px 4px; }
+      .photo-dialog__meta p { font-size: 10px; line-height: 1.65; }
+    }
+    @media (max-width: 430px) {
+      .page-arrow { display: none; }
+      .page-nav { padding: 4px; }
+      .page-dot { width: 44px; height: 44px; }
+      .page-dots { gap: 3px; }
+      .chapter-cue span { font-size: 8px; }
+      .final__phases i { width: 12px; }
+      .final__phases i.is-active { width: 24px; }
+    }
+    @media (orientation: landscape) and (max-height: 620px) and (max-width: 1180px) {
+      .topbar { grid-template-columns: 1fr auto auto; }
+      .topbar__center { gap: 0; }
+      .star-trail { width: 112px; height: 15px; }
+      .star-trail i { width: 12px; height: 12px; font-size: 7px; }
+      .star-trail__track, .star-trail__fill { left: 6px; }
+      .star-trail__track { right: 6px; }
+    }
+    @media (orientation: landscape) and (max-height: 500px) and (max-width: 1000px) {
+      .page-arrow { display: none; }
+      .page-dot { width: 38px; height: 38px; }
+      .page-dots { gap: 4px; }
+      .chapter-cue { top: max(45px, calc(env(safe-area-inset-top) + 38px)); padding: 4px 8px; font-size: 6px; }
+      .constellation-reward small { display: none; }
+    }
+
+    /* Keep the complete portrait inside the first mobile viewport. */
+    @media (max-width: 700px) and (orientation: portrait) {
+      .slide--memories {
+        padding-top: max(86px, calc(env(safe-area-inset-top) + 76px));
+        padding-bottom: max(76px, calc(env(safe-area-inset-bottom) + 64px));
+      }
+      .memories-slide { gap: 7px; }
+      .memories-copy h2 { margin-top: 7px; font-size: clamp(1.7rem, 7.6vw, 2.3rem); line-height: 1.16; }
+      .memories-text {
+        display: -webkit-box;
+        max-width: 34em;
+        margin-top: 6px;
+        overflow: hidden;
+        font-size: 11px;
+        line-height: 1.6;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+      }
+      .memories-ribbon { margin-top: 6px; font-size: 6.5px; }
+      .memories-copy .slide-next { margin-top: 6px; font-size: 9.5px; }
+      .memory-stage { height: clamp(330px, 39svh, 342px); }
+      .memory-main { left: 5%; top: 1.5%; width: min(58%, 190px); padding: 6px 6px 9px; }
+      .memory-collage { right: 1%; bottom: 1.5%; width: min(42%, 130px); padding: 5px 5px 7px; }
+      .memory-seal { width: 42px; height: 42px; font-size: 13px; }
+      .memory-depth-hint { top: 0; }
+      .memory-ghost { display: none; }
+    }
+
+    @media (max-width: 700px) and (orientation: portrait) and (max-height: 720px) {
+      .slide--memories {
+        padding-top: max(78px, calc(env(safe-area-inset-top) + 68px));
+        padding-bottom: max(70px, calc(env(safe-area-inset-bottom) + 58px));
+      }
+      .memories-text { -webkit-line-clamp: 1; }
+      .memories-ribbon { display: none; }
+      .memory-stage { height: 310px; }
+      .memory-main { width: min(56%, 180px); }
+    }
+
+    @media (max-width: 700px) and (orientation: portrait) and (max-height: 600px) {
+      .slide--memories {
+        padding-top: max(72px, calc(env(safe-area-inset-top) + 62px));
+        padding-bottom: max(62px, calc(env(safe-area-inset-bottom) + 52px));
+      }
+      .memories-text, .memories-ribbon { display: none; }
+      .memory-stage { height: 280px; }
+      .memory-main { width: min(54%, 160px); }
+      .memory-collage { width: min(40%, 112px); }
+    }
+
     @media (prefers-reduced-motion: reduce) {
       #sky, .cosmos-veil { transition-duration: 0.01ms; }
       .cosmos-veil::before, .cosmos-veil::after { animation: none; }
       .candle::before, .candle .flame, .candle .flame::before, .candle .ember, .plate::after { animation: none; }
+      .chapter-cue,
+      .constellation-reward,
+      .chapter-light,
+      .star-trail i,
+      .slide--final.is-sequence-armed.is-copy-ready .final__eyebrow,
+      .slide--final.is-sequence-armed.is-copy-ready .final h2,
+      .slide--final.is-sequence-armed.is-copy-ready .final__lead,
+      .slide--final.is-sequence-armed.is-copy-ready .final__phases,
+      .slide--final.is-sequence-armed.is-copy-ready .final__letter,
+      .slide--final.is-sequence-armed.is-copy-ready .final__actions,
+      .slide--final.is-sequence-armed.is-copy-ready .final__date,
+      .slide--final.is-sequence-armed.is-copy-ready .final > .slide-next {
+        animation-duration: 0.01ms !important;
+        animation-delay: 0ms !important;
+        transition-duration: 0.01ms !important;
+      }
     }
   </style>
 </head>
 <body class='locked'>
+  <button class='skip-link' id='skipLink' type='button'>跳到当前页内容</button>
   <canvas id='sky' aria-hidden='true'></canvas>
   <div class='cosmos-veil' aria-hidden='true'></div>
   <canvas id='meteorSky' aria-hidden='true'></canvas>
@@ -2942,6 +4244,14 @@
     <span class='ambient__orb ambient__orb--one'></span>
     <span class='ambient__orb ambient__orb--two'></span>
     <span class='ambient__orb ambient__orb--three'></span>
+  </div>
+  <div class='chapter-lights' id='chapterLights' aria-hidden='true'>
+    <span class='chapter-light chapter-light--home is-active'></span>
+    <span class='chapter-light chapter-light--cake'></span>
+    <span class='chapter-light chapter-light--wishes'></span>
+    <span class='chapter-light chapter-light--letter'></span>
+    <span class='chapter-light chapter-light--memories'></span>
+    <span class='chapter-light chapter-light--final'></span>
   </div>
   <div class='cursor-glow' id='cursorGlow' aria-hidden='true'></div>
   <div class='grain' aria-hidden='true'></div>
@@ -2965,7 +4275,7 @@
         <span class='gift__spark gift__spark--three' aria-hidden='true'>✦</span>
       </button>
       <h1 id='introTitle'>有一份<br><em>生日惊喜</em>等你拆开</h1>
-      <p class='intro__sub'>给 <strong>张博冉</strong> 的专属小宇宙<span class='intro__device-tip'>建议使用电脑浏览，烟花与流星雨体验更完整</span></p>
+      <p class='intro__sub'>给 <strong>张博冉</strong> 的专属小宇宙<span class='intro__device-tip'>建议使用电脑观赏；手机竖屏也可以完整浏览</span></p>
       <button class='intro__cta' id='enterButton' type='button'>轻轻拆开 <span aria-hidden='true'>↗</span></button>
     </div>
   </div>
@@ -2975,7 +4285,19 @@
       <span class='brand__mark' aria-hidden='true'>Z</span>
       <span class='brand__text'>ZHANG BORAN<small>BIRTHDAY EDITION</small></span>
     </a>
-    <div class='topbar__date' aria-label='11 月 18 日'><span>11</span><i></i><span>18</span></div>
+    <div class='topbar__center'>
+      <div class='topbar__date' aria-label='11 月 18 日'><span>11</span><i></i><span>18</span></div>
+      <div class='star-trail' id='starTrail' role='status' aria-live='polite' aria-label='星轨进度：0 / 6'>
+        <span class='star-trail__track' aria-hidden='true'></span>
+        <span class='star-trail__fill' id='starTrailFill' aria-hidden='true'></span>
+        <i data-trail-node='0'></i>
+        <i data-trail-node='1'></i>
+        <i data-trail-node='2'></i>
+        <i data-trail-node='3'></i>
+        <i data-trail-node='4'></i>
+        <i data-trail-node='5'></i>
+      </div>
+    </div>
     <button class='sound-toggle' id='soundToggle' type='button' aria-pressed='false' aria-label='开启声音'>
       <span class='sound-bars' aria-hidden='true'><i></i><i></i><i></i><i></i></span>
       <span id='soundLabel'>开启声音</span>
@@ -2983,11 +4305,14 @@
   </header>
 
   <div class='page-progress' aria-hidden='true'><span id='pageProgress'></span></div>
+  <div class='chapter-cue' id='chapterCue' aria-hidden='true'>
+    <span id='chapterCueNumber'>01</span><i></i><b id='chapterCueLabel'>拆开惊喜</b>
+  </div>
 
   <main id='main'>
     <div class='deck' id='deck'>
       <div class='slides' id='slides'>
-        <section class='slide slide--hero is-active' id='home' data-slide='0' aria-hidden='false'>
+        <section class='slide slide--hero is-active' id='home' data-slide='0' data-chapter='拆开惊喜' aria-hidden='false'>
           <div class='hero'>
       <div class='hero__copy reveal'>
         <p class='hero__kicker'><span>✦</span> Birthday girl · 2026 <span>✦</span></p>
@@ -3012,7 +4337,7 @@
           <button class='primary-button' id='fireworkButton' type='button'><span aria-hidden='true'>✦</span> 放一场烟花</button>
           <button class='ghost-button' type='button' data-goto='1'>去吹蜡烛 <span aria-hidden='true'>→</span></button>
         </div>
-        <p class='hero__hint'><i></i> 01 / 05 · 使用方向键或下方按钮翻页</p>
+        <p class='hero__hint'><i></i> 01 / 06 · 使用方向键或下方按钮翻页</p>
       </div>
 
           <div class='hero-art reveal' aria-hidden='true'>
@@ -3029,18 +4354,18 @@
               </div>
             </div>
             <div class='hero-art__friend' aria-hidden='true'>
-              <img class='hero-art__friend-img' src='./star-person-portrait.jpg' alt='星星人插画' draggable='false' decoding='async'>
+              <img class='hero-art__friend-img' src='./zhang-boran-portrait.jpg' alt='张博冉的照片' width='440' height='546' loading='eager' fetchpriority='high' draggable='false' decoding='async'>
               <span class='star-friend__spark star-friend__spark--a'>&#10022;</span>
               <span class='star-friend__spark star-friend__spark--b'>&#10022;</span>
               <span class='star-friend__spark star-friend__spark--c'>&#10022;</span>
               <span class='star-friend__spark star-friend__spark--d'>&#10022;</span>
             </div>
-            <p class='hero-art__caption'>MADE FOR ZHANG BORAN</p>
+            <p class='hero-art__caption'>A STAR NAMED ZHANG BORAN</p>
           </div>
         </div>
       </section>
 
-      <section class='slide slide--cake' id='cake' data-slide='1' aria-hidden='true'>
+      <section class='slide slide--cake' id='cake' data-slide='1' data-chapter='许下愿望' aria-hidden='true'>
         <div class='cake-slide'>
           <div class='cake-slide__copy reveal'>
             <p class='eyebrow'>Make a wish</p>
@@ -3094,7 +4419,7 @@
         </div>
       </section>
 
-      <section class='slide slide--wishes' id='wishes' data-slide='2' aria-hidden='true'>
+      <section class='slide slide--wishes' id='wishes' data-slide='2' data-chapter='写给今天' aria-hidden='true'>
         <div class='section wishes-slide'>
           <div class='section__head reveal'>
         <p class='eyebrow'>Wishes for you</p>
@@ -3106,20 +4431,21 @@
         <div class='blessing-deck reveal' id='blessingDeck'>
           <span class='blessing-deck__ghost blessing-deck__ghost--back' aria-hidden='true'></span>
           <span class='blessing-deck__ghost blessing-deck__ghost--mid' aria-hidden='true'></span>
-          <article class='glass-card blessing-card' id='blessingCard' aria-labelledby='blessingTitle'>
+          <article class='glass-card blessing-card' id='blessingCard' role='button' tabindex='0' aria-labelledby='blessingTitle' aria-describedby='blessingHintText'>
             <div class='blessing-card__top'>
               <p class='card-number'>01 / BLESSING</p>
               <span class='blessing-card__seal' aria-hidden='true'>11·18</span>
             </div>
+            <p class='blessing-card__secret-tag' aria-hidden='true'>ONLY FOR YOU</p>
             <div class='blessing-card__body' aria-live='polite' aria-atomic='true'>
               <p class='blessing-card__title' id='blessingTitle'>自有花期</p>
               <p class='blessing__text' id='blessingText'>愿你不慌不忙，不疾不徐，在自己的节奏里，遇见一路好风景。</p>
             </div>
             <div class='blessing-card__foot'>
-              <span class='blessing-card__hint'><i></i> 轻点卡片，翻开下一句</span>
+              <span class='blessing-card__hint'><i></i> <span id='blessingHintText'>轻点卡片，翻开下一句</span></span>
               <div class='blessing-card__controls'>
-                <span class='blessing-card__counter' id='blessingCounter'>01 / 06</span>
-                <button class='text-button' id='nextBlessing' type='button' aria-label='换一张祝福，当前第 1 张，共 6 张'><span aria-hidden='true'>↻</span> 换一张</button>
+                <span class='blessing-card__counter' id='blessingCounter'>01 / 07</span>
+                <button class='text-button' id='nextBlessing' type='button' aria-label='换一张祝福，当前第 1 张，共 7 张'><span aria-hidden='true'>↻</span> <span id='nextBlessingLabel'>换一张</span></button>
               </div>
             </div>
           </article>
@@ -3150,7 +4476,7 @@
         </div>
       </section>
 
-      <section class='slide slide--letter' id='letter' data-slide='3' aria-hidden='true'>
+      <section class='slide slide--letter' id='letter' data-slide='3' data-chapter='点亮天蝎' aria-hidden='true'>
         <div class='section letter-slide'>
           <div class='letter-wrap'>
         <div class='letter-copy reveal'>
@@ -3189,23 +4515,71 @@
             <button class='wish-star' type='button' data-star='8' aria-label='点亮天蝎座第 9 颗星' aria-pressed='false' style='left: 88%; top: 80%;'><span aria-hidden='true'>✦</span></button>
             <button class='wish-star' type='button' data-star='9' aria-label='点亮天蝎座第 10 颗星' aria-pressed='false' style='left: 95%; top: 68%;'><span aria-hidden='true'>✦</span></button>
             <button class='wish-star' type='button' data-star='10' aria-label='点亮天蝎座第 11 颗星' aria-pressed='false' style='left: 88%; top: 52%;'><span aria-hidden='true'>✦</span></button>
+            <div class='constellation-reward' id='constellationReward' aria-hidden='true'>
+              <span>✦</span><b>SCORPIUS COMPLETE</b><small>天蝎座的星光，今晚为你亮起</small>
+            </div>
           </div>
           <p class='star-progress'><span id='starCount'>0</span> / 11 颗好运星</p>
           <p class='star-instruction' id='starInstruction' aria-live='polite'>沿着天蝎座的星轨，点亮每一颗星，收集你的好运</p>
-          <p class='star-secret' id='starSecret'>天蝎座的好运星已经点亮。愿你不被定义，永远自由，永远相信明天会有好事发生。</p>
+          <p class='star-secret' id='starSecret'>天蝎座的星光，今晚为你亮起。愿你不被定义，永远自由，永远相信明天会有好事发生。</p>
           <button class='star-reset' id='resetStars' type='button' hidden>再收藏一次</button>
         </div>
           </div>
-          <button class='slide-next' type='button' data-goto='4'>最后一页，留给今晚的星光 <span aria-hidden='true'>→</span></button>
+          <button class='slide-next' type='button' data-goto='4'>去看看今天的照片 <span aria-hidden='true'>→</span></button>
         </div>
       </section>
 
-      <section class='slide slide--final' id='final' data-slide='4' aria-hidden='true'>
+      <section class='slide slide--memories' id='memories' data-slide='4' data-chapter='今晚的你' aria-hidden='true'>
+        <div class='memories-slide'>
+          <div class='memories-copy reveal'>
+            <p class='eyebrow'>A little galaxy of you</p>
+            <h2>今晚的你，<br>每一帧都<em>值得收藏</em>。</h2>
+            <p class='memories-text'>灯光落在裙摆上，蛋糕旁的烛光刚好，你笑起来的样子，也比今晚所有的星星更亮。把这一刻留在相册里，也留在新一岁的开场里。</p>
+            <div class='memories-ribbon'><span>11 · 18</span><i></i><span>THE BIRTHDAY GIRL</span></div>
+            <button class='slide-next' type='button' data-goto='5'>最后一页，留给今晚的星光 <span aria-hidden='true'>→</span></button>
+          </div>
+          <div class='memory-stage reveal' id='memoryStage'>
+            <span class='memory-depth-floor' aria-hidden='true'></span>
+            <span class='memory-orbit' aria-hidden='true'></span>
+            <span class='memory-orbit memory-orbit--two' aria-hidden='true'></span>
+            <div class='memory-scene'>
+              <span class='memory-ghost memory-ghost--main' aria-hidden='true'></span>
+              <span class='memory-ghost memory-ghost--collage' aria-hidden='true'></span>
+              <figure class='memory-main' id='memoryMain' role='button' tabindex='0' aria-haspopup='dialog' aria-label='打开张博冉的生日写真大图' data-photo='./zhang-boran-memory.jpg' data-photo-title='今晚的你' data-photo-caption='灯光落在裙摆上，也落在新一岁的开场里。'>
+                <img src='./zhang-boran-memory.jpg' alt='张博冉的生日高清写真' width='1279' height='1962' loading='lazy' fetchpriority='low' draggable='false' decoding='async'>
+                <figcaption><span>11 · 18 · 2026</span><strong>今晚的你</strong></figcaption>
+              </figure>
+              <figure class='memory-collage' id='memoryCollage' role='button' tabindex='0' aria-haspopup='dialog' aria-label='打开张博冉的九宫格生日照片大图' data-photo='./birthday-collage.jpg' data-photo-title='九个瞬间' data-photo-caption='不同角度的瞬间，拼成同一份明亮。今晚的每一帧，都值得被收藏。'>
+                <img src='./birthday-collage.jpg' alt='张博冉生日写真九宫格' width='800' height='1200' loading='lazy' fetchpriority='low' draggable='false' decoding='async'>
+                <figcaption><span>NINE MOMENTS</span><strong>九个瞬间</strong></figcaption>
+              </figure>
+              <span class='memory-seal' aria-hidden='true'>18<small>NOV</small></span>
+              <span class='memory-spark memory-spark--a' aria-hidden='true'>&#10022;</span>
+              <span class='memory-spark memory-spark--b' aria-hidden='true'>&#10022;</span>
+              <span class='memory-spark memory-spark--c' aria-hidden='true'>&#10022;</span>
+              <span class='memory-spark memory-spark--d' aria-hidden='true'>&#10022;</span>
+              <span class='memory-live-light' aria-hidden='true'></span>
+            </div>
+            <p class='memory-depth-hint' aria-hidden='true'><span>3D</span><b class='memory-depth-hint__label'>移动查看 · 点击放大</b></p>
+          </div>
+        </div>
+      </section>
+
+      <section class='slide slide--final' id='final' data-slide='5' data-chapter='星空终章' aria-hidden='true'>
         <div class='final reveal'>
           <p class='final__eyebrow'>ONE LAST SPARKLE</p>
           <h2>张博冉<br><em>生日快乐</em></h2>
+          <div class='final__phases' id='finalPhases' aria-hidden='true'><i class='is-active'></i><i></i><i></i></div>
           <p class='final__lead'>愿今天的所有星光，都替你记得这一刻的快乐。新的一岁，请继续勇敢、明亮、自由地向前走。</p>
-          <button class='primary-button' id='finalButton' type='button'>让夜空再亮一次 <span aria-hidden='true'>✦</span></button>
+          <div class='final__letter'>
+            <p class='final__letter-kicker'>A NOTE FOR YOU</p>
+            <p class='final__letter-text'>你不需要成为谁的标准答案。<br>新的一岁，继续勇敢、柔软、自由地做你自己。</p>
+            <p class='final__signature'>— 一直希望你快乐的人</p>
+          </div>
+          <div class='final__actions'>
+            <button class='primary-button' id='finalButton' type='button'>让夜空再亮一次 <span aria-hidden='true'>✦</span></button>
+            <button class='ghost-button' id='memoryCardButton' type='button'>收下今晚的记忆 <span aria-hidden='true'>↓</span></button>
+          </div>
           <p class='final__date'>11 / 18 / 2026 · MADE WITH LOVE</p>
           <button class='slide-next' type='button' data-goto='0'>回到第一页，再看一次 <span aria-hidden='true'>↺</span></button>
         </div>
@@ -3221,12 +4595,37 @@
         <button class='page-dot' type='button' data-goto='1' aria-label='第 2 页：许愿蛋糕'>02</button>
         <button class='page-dot' type='button' data-goto='2' aria-label='第 3 页：今日祝福'>03</button>
         <button class='page-dot' type='button' data-goto='3' aria-label='第 4 页：写给张博冉'>04</button>
-        <button class='page-dot' type='button' data-goto='4' aria-label='第 5 页：生日快乐'>05</button>
+        <button class='page-dot' type='button' data-goto='4' aria-label='第 5 页：今日照片'>05</button>
+        <button class='page-dot' type='button' data-goto='5' aria-label='第 6 页：生日快乐'>06</button>
       </div>
-      <div class='page-nav__meta'><strong id='pageCurrent'>01</strong><i></i><span>05</span></div>
+      <div class='page-nav__meta'><strong id='pageCurrent'>01</strong><i></i><span>06</span></div>
       <button class='page-arrow' id='pageNext' type='button' aria-label='下一页'>→</button>
     </nav>
   </main>
+
+  <dialog class='memory-dialog' id='memoryDialog' aria-labelledby='memoryDialogTitle'>
+    <button class='memory-dialog__close' id='memoryDialogClose' type='button' aria-label='关闭记忆卡预览'>×</button>
+    <p class='memory-dialog__eyebrow'>A KEEPSAKE FOR YOU</p>
+    <h3 id='memoryDialogTitle'>今晚的记忆卡</h3>
+    <div class='memory-dialog__preview'>
+      <img id='memoryCardPreview' alt='张博冉生日记忆卡预览'>
+    </div>
+    <p class='memory-dialog__note'>手机上也可以长按图片保存到相册</p>
+    <div class='memory-dialog__actions'>
+      <a class='primary-button is-disabled' id='memoryDownload' download='zhang-boran-birthday-2026.png' role='button' aria-disabled='true'>保存到相册 <span aria-hidden='true'>↓</span></a>
+      <button class='ghost-button' id='memoryDialogDone' type='button'>留在这里</button>
+    </div>
+  </dialog>
+
+  <dialog class='photo-dialog' id='photoDialog' aria-labelledby='photoDialogTitle'>
+    <button class='memory-dialog__close photo-dialog__close' id='photoDialogClose' type='button' aria-label='关闭照片预览'>×</button>
+    <div class='photo-dialog__frame'><img id='photoDialogImage' alt=''></div>
+    <div class='photo-dialog__meta'>
+      <span>11 · 18 · 2026</span>
+      <h3 id='photoDialogTitle'>今晚的你</h3>
+      <p id='photoDialogCaption'>灯光落在裙摆上，也落在新一岁的开场里。</p>
+    </div>
+  </dialog>
 
   <canvas id='fx' aria-hidden='true'></canvas>
   <div class='toast' id='toast' role='status' aria-live='polite'></div>
@@ -3239,7 +4638,10 @@
       const $$ = (selector, scope = document) => Array.from(scope.querySelectorAll(selector));
       const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       const lowPowerDevice = window.matchMedia('(pointer: coarse)').matches || (navigator.hardwareConcurrency && navigator.hardwareConcurrency <= 4);
+      const isIOS = /iP(hone|ad|od)/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
       const body = document.body;
+      if (lowPowerDevice) body.classList.add('is-low-power');
+      if (isIOS) body.classList.add('is-ios');
       const intro = $('#intro');
       const introTitle = $('#introTitle');
       const giftButton = $('#giftButton');
@@ -3247,6 +4649,12 @@
       const mainEl = $('#main');
       const topbar = $('#topbar');
       const toast = $('#toast');
+      const skipLink = $('#skipLink');
+      const chapterLights = $$('.chapter-light');
+      const starTrail = $('#starTrail');
+      const starTrailNodes = $$('.star-trail i');
+      const starMilestones = new Set();
+      let starTrailEarned = 0;
       let introLeaving = false;
 
       function showToast(message) {
@@ -3257,6 +4665,20 @@
         showToast.timer = window.setTimeout(() => toast.classList.remove('is-visible'), 3000);
       }
 
+      function awardStar(index) {
+        if (!starTrail || !starTrailNodes.length) return;
+        const nodeIndex = Number(index);
+        const node = starTrailNodes[nodeIndex];
+        if (!node || starMilestones.has(nodeIndex)) return;
+        starMilestones.add(nodeIndex);
+        node.classList.add('is-lit');
+        starTrailEarned = starMilestones.size;
+        const lastIndex = Math.max(1, starTrailNodes.length - 1);
+        starTrail.style.setProperty('--trail-progress', String(Math.max(0, (starTrailEarned - 1) / lastIndex)));
+        starTrail.setAttribute('aria-label', `星轨进度：${starTrailEarned} / ${starTrailNodes.length}`);
+        starTrail.classList.toggle('is-complete', starTrailEarned === starTrailNodes.length);
+      }
+
       function enterExperience() {
         if (introLeaving) return;
         introLeaving = true;
@@ -3264,6 +4686,7 @@
         body.classList.remove('locked');
         mainEl.inert = false;
         topbar.inert = false;
+        awardStar(0);
         window.setTimeout(() => {
           if (intro) {
             intro.hidden = true;
@@ -3274,10 +4697,12 @@
             heroName.setAttribute('tabindex', '-1');
             heroName.focus({ preventScroll: true });
           }
+          showChapterCue(currentSlide);
         }, reduceMotion ? 40 : 920);
       }
 
-      const skipIntro = new URLSearchParams(window.location.search).has('skipIntro');
+      const searchParams = new URLSearchParams(window.location.search);
+      const skipIntro = searchParams.has('skipIntro');
       if (skipIntro) {
         if (intro) {
           intro.hidden = true;
@@ -3305,18 +4730,60 @@
       const pageNext = $('#pageNext');
       const pageCurrent = $('#pageCurrent');
       const pageProgress = $('#pageProgress');
+      const pageDotsWrap = $('.page-dots');
+      const chapterCue = $('#chapterCue');
+      const chapterCueNumber = $('#chapterCueNumber');
+      const chapterCueLabel = $('#chapterCueLabel');
+      const visitedSlides = new Set();
       let currentSlide = 0;
+      let chapterCueTimer = 0;
+      let allSlidesVisited = false;
       let pageLocked = false;
       let wheelAccumulator = 0;
       let wheelTimer = 0;
       let touchStartX = 0;
       let touchStartY = 0;
+      let touchStartedInMemory = false;
+      let touchTracking = false;
       let suppressCarouselTapUntil = 0;
+
+      const hasOpenDialog = () => Boolean(document.querySelector('dialog[open]'));
+
+      if (skipLink) {
+        skipLink.addEventListener('click', () => {
+          const activeSlide = slideEls[currentSlide];
+          if (!activeSlide) return;
+          activeSlide.setAttribute('tabindex', '-1');
+          activeSlide.focus({ preventScroll: true });
+        });
+      }
 
       function initialSlideFromHash() {
         const hash = window.location.hash.replace('#', '');
         const found = slideEls.findIndex(slide => slide.id === hash);
         return found < 0 ? 0 : found;
+      }
+
+      function showChapterCue(index) {
+        if (!chapterCue || !chapterCueNumber || !chapterCueLabel) return;
+        const slide = slideEls[index];
+        if (!slide) return;
+        chapterCue.classList.remove('is-visible');
+        chapterCueNumber.textContent = String(index + 1).padStart(2, '0');
+        chapterCueLabel.textContent = slide.dataset.chapter || '生日小宇宙';
+        window.clearTimeout(chapterCueTimer);
+        void chapterCue.offsetWidth;
+        window.requestAnimationFrame(() => {
+          chapterCue.classList.add('is-visible');
+          chapterCueTimer = window.setTimeout(() => chapterCue.classList.remove('is-visible'), 1450);
+        });
+      }
+
+      function prepareFinalSlide(index) {
+        const slide = slideEls[index];
+        if (!slide || slide.id !== 'final') return;
+        slide.classList.add('is-sequence-armed');
+        slide.classList.remove('is-copy-ready', 'is-phase-fireworks', 'is-phase-cosmos', 'is-phase-meteors');
       }
 
       function updateSlideUi() {
@@ -3328,14 +4795,19 @@
         });
         pageDots.forEach((dot, index) => {
           const active = index === currentSlide;
+          dot.classList.toggle('is-visited', visitedSlides.has(index));
           dot.classList.toggle('is-active', active);
           if (active) dot.setAttribute('aria-current', 'page');
           else dot.removeAttribute('aria-current');
         });
+        if (pageDotsWrap) pageDotsWrap.classList.toggle('is-complete', visitedSlides.size === slideEls.length);
         if (pagePrev) pagePrev.disabled = currentSlide === 0;
         if (pageNext) pageNext.disabled = currentSlide === slideEls.length - 1;
         if (pageCurrent) pageCurrent.textContent = String(currentSlide + 1).padStart(2, '0');
         if (pageProgress) pageProgress.style.width = `${((currentSlide + 1) / slideEls.length) * 100}%`;
+        chapterLights.forEach((light, index) => {
+          light.classList.toggle('is-active', index === currentSlide);
+        });
       }
 
       function goToSlide(index, options = {}) {
@@ -3346,12 +4818,28 @@
           return;
         }
         currentSlide = nextIndex;
+        visitedSlides.add(currentSlide);
+        prepareFinalSlide(currentSlide);
         if (instant && slidesTrack) {
           slidesTrack.classList.add('is-instant');
           window.requestAnimationFrame(() => window.requestAnimationFrame(() => slidesTrack.classList.remove('is-instant')));
         }
         if (slidesTrack) slidesTrack.style.transform = `translate3d(-${currentSlide * 100}%, 0, 0)`;
         updateSlideUi();
+        if (!instant) showChapterCue(currentSlide);
+        const finalIndex = slideEls.length - 1;
+        const enteringFinal = currentSlide === finalIndex;
+        window.setTimeout(() => {
+          if (enteringFinal && currentSlide === finalIndex) setFinalVisible(true);
+          else if (!enteringFinal && currentSlide !== finalIndex) setFinalVisible(false);
+        }, enteringFinal ? (instant ? 80 : 900) : 0);
+        if (visitedSlides.size === slideEls.length && !allSlidesVisited) {
+          allSlidesVisited = true;
+          if (!instant) {
+            if (!reduceMotion) spawnConfetti(20);
+            showToast('六页都已走过 · 今晚的每一页都属于你 ✦');
+          }
+        }
         if (updateHash) {
           const targetHash = `#${slideEls[currentSlide].id}`;
           if (window.location.hash !== targetHash) {
@@ -3391,6 +4879,7 @@
       if (pageNext) pageNext.addEventListener('click', () => goToSlide(currentSlide + 1));
 
       window.addEventListener('keydown', event => {
+        if (hasOpenDialog() || event.defaultPrevented) return;
         if (intro && !intro.hidden && !intro.classList.contains('is-leaving')) return;
         if (event.altKey || event.ctrlKey || event.metaKey) return;
         const tag = document.activeElement && document.activeElement.tagName;
@@ -3418,6 +4907,7 @@
 
       if (deck) {
         deck.addEventListener('wheel', event => {
+          if (hasOpenDialog()) return;
           if (Math.abs(event.deltaY) <= Math.abs(event.deltaX)) return;
           const direction = event.deltaY > 0 ? 1 : -1;
           if (!isSlideAtEdge(direction)) return;
@@ -3432,18 +4922,40 @@
         }, { passive: false });
 
         deck.addEventListener('touchstart', event => {
-          if (event.touches.length !== 1) return;
+          touchTracking = false;
+          touchStartedInMemory = false;
+          if (pageLocked || hasOpenDialog() || event.touches.length !== 1) return;
           touchStartX = event.touches[0].clientX;
           touchStartY = event.touches[0].clientY;
+          touchStartedInMemory = Boolean(event.target.closest && event.target.closest('#memoryStage'));
+          touchTracking = true;
         }, { passive: true });
 
         deck.addEventListener('touchend', event => {
-          if (!event.changedTouches.length) return;
+          if (!touchTracking || pageLocked) {
+            touchTracking = false;
+            touchStartedInMemory = false;
+            return;
+          }
+          if (!event.changedTouches.length) {
+            touchTracking = false;
+            touchStartedInMemory = false;
+            return;
+          }
+          const startedInMemory = touchStartedInMemory;
+          touchStartedInMemory = false;
+          touchTracking = false;
+          if (startedInMemory) return;
           const deltaX = event.changedTouches[0].clientX - touchStartX;
           const deltaY = event.changedTouches[0].clientY - touchStartY;
           if (Math.abs(deltaX) < 56 || Math.abs(deltaX) < Math.abs(deltaY) * 1.25) return;
           suppressCarouselTapUntil = performance.now() + 420;
           goToSlide(currentSlide + (deltaX < 0 ? 1 : -1));
+        }, { passive: true });
+
+        deck.addEventListener('touchcancel', () => {
+          touchTracking = false;
+          touchStartedInMemory = false;
         }, { passive: true });
       }
 
@@ -3462,20 +4974,27 @@
       const hourEl = $('#countdownHours');
       const minuteEl = $('#countdownMinutes');
       const secondEl = $('#countdownSeconds');
+      const themeColorMeta = $('#themeColorMeta');
       const pad = value => String(value).padStart(2, '0');
+      const beijingOffsetMs = 8 * 60 * 60 * 1000;
+
+      function beijingBirthdayWindow(year) {
+        return {
+          start: Date.UTC(year, 10, 18) - beijingOffsetMs,
+          end: Date.UTC(year, 10, 19) - beijingOffsetMs
+        };
+      }
 
       function updateCountdown() {
         if (!countdown) return;
-        const now = new Date();
-        const year = now.getFullYear();
-        let target = new Date(year, 10, 18, 0, 0, 0, 0);
-        let end = new Date(year, 10, 19, 0, 0, 0, 0);
-        if (now >= end) {
-          target = new Date(year + 1, 10, 18, 0, 0, 0, 0);
-          end = new Date(year + 1, 10, 19, 0, 0, 0, 0);
-        }
+        const now = Date.now();
+        const beijingYear = new Date(now + beijingOffsetMs).getUTCFullYear();
+        let { start: target, end } = beijingBirthdayWindow(beijingYear);
+        if (now >= end) ({ start: target, end } = beijingBirthdayWindow(beijingYear + 1));
         const isToday = now >= target && now < end;
+        body.classList.toggle('is-birthday', isToday);
         countdown.classList.toggle('is-today', isToday);
+        if (themeColorMeta) themeColorMeta.setAttribute('content', isToday ? '#1a120a' : '#070913');
         if (isToday) {
           countdownHeading.innerHTML = `<span class='countdown__dot' aria-hidden='true'></span>今天，就是你的生日`;
           return;
@@ -3493,6 +5012,9 @@
       }
       updateCountdown();
       window.setInterval(updateCountdown, 1000);
+      document.addEventListener('visibilitychange', () => {
+        if (!document.hidden) updateCountdown();
+      });
 
       const revealItems = $$('.reveal');
       if ('IntersectionObserver' in window) {
@@ -3512,24 +5034,44 @@
       }
 
       const cursorGlow = $('#cursorGlow');
-      if (cursorGlow && window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+      if (cursorGlow && !reduceMotion && window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
         let targetX = window.innerWidth / 2;
         let targetY = window.innerHeight / 2;
         let currentX = targetX;
         let currentY = targetY;
         let glowFrame = 0;
+        let pointerIdleTimer = 0;
         const paintGlow = () => {
+          glowFrame = 0;
+          if (document.hidden) {
+            cursorGlow.classList.remove('is-active');
+            return;
+          }
           currentX += (targetX - currentX) * 0.16;
           currentY += (targetY - currentY) * 0.16;
           cursorGlow.style.transform = `translate3d(${currentX - 220}px, ${currentY - 220}px, 0)`;
           glowFrame = window.requestAnimationFrame(paintGlow);
         };
         window.addEventListener('pointermove', event => {
+          if (document.hidden) return;
           targetX = event.clientX;
           targetY = event.clientY;
           cursorGlow.classList.add('is-active');
+          if (!glowFrame) glowFrame = window.requestAnimationFrame(paintGlow);
+          window.clearTimeout(pointerIdleTimer);
+          pointerIdleTimer = window.setTimeout(() => {
+            if (glowFrame) window.cancelAnimationFrame(glowFrame);
+            glowFrame = 0;
+            cursorGlow.classList.remove('is-active');
+          }, 1400);
         }, { passive: true });
-        paintGlow();
+        document.addEventListener('visibilitychange', () => {
+          if (!document.hidden) return;
+          if (glowFrame) window.cancelAnimationFrame(glowFrame);
+          glowFrame = 0;
+          window.clearTimeout(pointerIdleTimer);
+          cursorGlow.classList.remove('is-active');
+        });
       }
 
       const AudioCtor = window.AudioContext || window.webkitAudioContext;
@@ -3652,6 +5194,21 @@
       }
       if (soundToggle) soundToggle.addEventListener('click', () => setSound(!soundOn));
 
+      async function resumeSoundIfNeeded() {
+        if (!soundOn || !audioCtx || document.hidden) return;
+        await audioCtx.resume().catch(() => {});
+        if (soundOn && !document.hidden && !ambientTimer) startAmbient();
+      }
+
+      document.addEventListener('visibilitychange', () => {
+        if (document.hidden) {
+          stopAmbient();
+          if (audioCtx && audioCtx.state === 'running') audioCtx.suspend().catch(() => {});
+          return;
+        }
+        resumeSoundIfNeeded();
+      });
+
       const cakePanel = $('#cakePanel');
       const cakeObject = $('#cakeObject');
       const cakeHint = $('#cakeHint');
@@ -3703,7 +5260,7 @@
             power: 2.2,
             lifespan: 0.65,
             gravity: -0.012,
-            colors: ['#ffe1a6', '#ffb890', '#ff8da8']
+            colors: ['#ffe3aa', '#e9b790', '#e9a2b3']
           });
         }
         if (remainingCandles === 0 && !wishComplete) window.setTimeout(completeWish, 180);
@@ -3713,6 +5270,7 @@
       function completeWish() {
         if (wishComplete) return;
         wishComplete = true;
+        awardStar(1);
         if (cakePanel) cakePanel.classList.add('is-wished');
         if (cakeHint) cakeHint.textContent = '所有蜡烛都吹灭了，愿望正在发光。';
         if (blowButton) blowButton.hidden = true;
@@ -3724,7 +5282,7 @@
             count: 30,
             power: 5.3,
             lifespan: 1.05,
-            colors: ['#ffe1a6', '#ff8da8', '#c1b4ff', '#8be7d0', '#fff7e8']
+            colors: ['#ffe3aa', '#e9a2b3', '#b9acf1', '#91cdbf', '#fff8ec']
           });
           spawnConfetti(36);
           launchFireworks(2);
@@ -3820,6 +5378,16 @@
           glow: 'rgba(116, 167, 255, 0.22)',
           surfaceA: 'rgba(116, 167, 255, 0.18)',
           surfaceB: 'rgba(246, 199, 119, 0.065)'
+        },
+        {
+          title: '留给你自己',
+          text: '这一张不用翻页，也没有标准答案。愿你被爱包围，也始终拥有做自己的底气。',
+          accent: '#fff4d8',
+          border: 'rgba(255, 244, 216, 0.42)',
+          glow: 'rgba(255, 232, 180, 0.26)',
+          surfaceA: 'rgba(255, 235, 190, 0.2)',
+          surfaceB: 'rgba(193, 180, 255, 0.1)',
+          secret: true
         }
       ];
       const blessingDeck = $('#blessingDeck');
@@ -3828,6 +5396,8 @@
       const blessingText = $('#blessingText');
       const blessingCounter = $('#blessingCounter');
       const nextBlessing = $('#nextBlessing');
+      const nextBlessingLabel = $('#nextBlessingLabel');
+      const blessingHintText = $('#blessingHintText');
       let blessingIndex = 0;
       let blessingLocked = false;
       let blessingDeckTimer = 0;
@@ -3839,6 +5409,7 @@
         if (blessingText) blessingText.textContent = blessing.text;
         if (blessingCounter) blessingCounter.textContent = `${pad(blessingIndex + 1)} / ${pad(blessings.length)}`;
         if (blessingCard) {
+          blessingCard.classList.toggle('is-secret', Boolean(blessing.secret));
           blessingCard.style.setProperty('--blessing-accent', blessing.accent);
           blessingCard.style.setProperty('--blessing-border', blessing.border);
           blessingCard.style.setProperty('--blessing-glow', blessing.glow);
@@ -3846,9 +5417,12 @@
           blessingCard.style.setProperty('--blessing-surface-b', blessing.surfaceB);
         }
         if (blessingDeck) {
+          blessingDeck.classList.toggle('is-secret', Boolean(blessing.secret));
           blessingDeck.style.setProperty('--deck-border', blessing.border);
           blessingDeck.style.setProperty('--deck-glow', blessing.glow);
         }
+        if (blessingHintText) blessingHintText.textContent = blessing.secret ? '最后一张，不用再翻了' : '轻点卡片，翻开下一句';
+        if (nextBlessingLabel) nextBlessingLabel.textContent = blessing.secret ? '从头再看' : '换一张';
         if (nextBlessing) nextBlessing.setAttribute('aria-label', `换一张祝福，当前第 ${blessingIndex + 1} 张，共 ${blessings.length} 张`);
       }
 
@@ -3867,6 +5441,11 @@
         window.setTimeout(() => {
           blessingIndex = (blessingIndex + 1) % blessings.length;
           updateBlessingCard();
+          if (blessings[blessingIndex]?.secret) {
+            awardStar(2);
+            showToast('最后一张，只留给你自己 ✦');
+            if (!reduceMotion) spawnConfetti(16);
+          }
           blessingCard.classList.remove('is-leaving');
           blessingCard.classList.add('is-entering');
           window.requestAnimationFrame(() => {
@@ -3887,6 +5466,14 @@
         });
       }
       if (blessingCard) blessingCard.addEventListener('click', switchBlessing);
+      if (blessingCard) {
+        blessingCard.addEventListener('keydown', event => {
+          if (event.target !== blessingCard) return;
+          if (event.key !== 'Enter' && event.key !== ' ') return;
+          event.preventDefault();
+          switchBlessing();
+        });
+      }
 
       const luckySigns = [
         { title: '闪闪发光', text: '去做让自己眼睛发亮的事，去见让自己忍不住微笑的人。', accent: '#ffe1a6', glow: 'rgba(246, 199, 119, 0.2)' },
@@ -3964,6 +5551,7 @@
       const constellationLines = $$('.constellation__line');
       const starCountEl = $('#starCount');
       const starInstruction = $('#starInstruction');
+      const constellationReward = $('#constellationReward');
       const resetStars = $('#resetStars');
       let litStars = 0;
 
@@ -3976,6 +5564,7 @@
         constellationLines.forEach(line => line.classList.remove('is-lit'));
         if (starCard) starCard.classList.remove('is-complete');
         if (starField) starField.classList.remove('is-complete');
+        if (constellationReward) constellationReward.setAttribute('aria-hidden', 'true');
         if (starCountEl) starCountEl.textContent = '0';
         if (starInstruction) starInstruction.textContent = '沿着天蝎座的星轨，点亮每一颗星，收集你的好运';
         if (resetStars) resetStars.hidden = true;
@@ -4007,10 +5596,13 @@
             });
           }
           if (litStars < starButtons.length) return;
+          awardStar(3);
           if (starCard) starCard.classList.add('is-complete');
           if (starField) starField.classList.add('is-complete');
+          if (constellationReward) constellationReward.setAttribute('aria-hidden', 'false');
           if (starInstruction) starInstruction.textContent = '天蝎座已完整点亮，你的专属好运星正在发光。';
           if (resetStars) resetStars.hidden = false;
+          if (navigator.vibrate) navigator.vibrate([18, 32, 24]);
           showToast('天蝎座点亮成功 · 好运星星已送达 ✦');
           if (!reduceMotion) {
             if (starField) {
@@ -4029,6 +5621,149 @@
         });
       });
       if (resetStars) resetStars.addEventListener('click', resetStarGame);
+
+      const photoDialog = $('#photoDialog');
+      const photoDialogImage = $('#photoDialogImage');
+      const photoDialogTitle = $('#photoDialogTitle');
+      const photoDialogCaption = $('#photoDialogCaption');
+      const photoDialogClose = $('#photoDialogClose');
+      let photoDialogReturnFocus = null;
+
+      function openPhotoDialog(card) {
+        if (!photoDialog || !photoDialogImage || !card) return;
+        awardStar(4);
+        photoDialogReturnFocus = document.activeElement;
+        photoDialogImage.src = card.dataset.photo || '';
+        photoDialogImage.alt = card.querySelector('img')?.alt || '张博冉的生日照片';
+        if (photoDialogTitle) photoDialogTitle.textContent = card.dataset.photoTitle || '今晚的你';
+        if (photoDialogCaption) photoDialogCaption.textContent = card.dataset.photoCaption || '';
+        if (typeof photoDialog.showModal === 'function') {
+          if (!photoDialog.open) photoDialog.showModal();
+        } else {
+          photoDialog.setAttribute('open', '');
+        }
+      }
+
+      function closePhotoDialog() {
+        if (!photoDialog) return;
+        if (typeof photoDialog.close === 'function' && photoDialog.open) photoDialog.close();
+        else photoDialog.removeAttribute('open');
+        if (photoDialogReturnFocus?.focus) photoDialogReturnFocus.focus({ preventScroll: true });
+      }
+
+      if (photoDialogClose) photoDialogClose.addEventListener('click', closePhotoDialog);
+      if (photoDialog) {
+        photoDialog.addEventListener('click', event => {
+          if (event.target === photoDialog) closePhotoDialog();
+        });
+        photoDialog.addEventListener('close', () => {
+          if (photoDialogReturnFocus?.focus) photoDialogReturnFocus.focus({ preventScroll: true });
+        });
+      }
+
+      const memoryStage = $('#memoryStage');
+      const memoryScene = memoryStage ? $('.memory-scene', memoryStage) : null;
+      const memoryCards = [$('#memoryMain'), $('#memoryCollage')].filter(Boolean);
+      let memoryOpenGuardUntil = 0;
+      if (memoryStage && !reduceMotion) {
+        let memoryTiltFrame = 0;
+        let memoryTiltX = 0;
+        let memoryTiltY = 0;
+        let memoryTouchPointer = null;
+        let memoryPointerStartX = 0;
+        let memoryPointerStartY = 0;
+        const tiltScale = lowPowerDevice ? 0.56 : 1;
+        const applyMemoryTilt = () => {
+          memoryTiltFrame = 0;
+          memoryStage.style.setProperty('--memory-ry', `${(memoryTiltX * 11 * tiltScale).toFixed(2)}deg`);
+          memoryStage.style.setProperty('--memory-rx', `${(-memoryTiltY * 8 * tiltScale).toFixed(2)}deg`);
+          memoryStage.style.setProperty('--memory-glow-x', `${(52 + memoryTiltX * 24 * tiltScale).toFixed(1)}%`);
+          memoryStage.style.setProperty('--memory-glow-y', `${(45 + memoryTiltY * 21 * tiltScale).toFixed(1)}%`);
+          memoryStage.style.setProperty('--memory-shine-x', `${(58 + memoryTiltX * 34 * tiltScale).toFixed(1)}%`);
+          memoryStage.style.setProperty('--memory-shine-y', `${(38 + memoryTiltY * 30 * tiltScale).toFixed(1)}%`);
+          memoryStage.style.setProperty('--memory-main-x', `${(-memoryTiltX * 16 * tiltScale).toFixed(1)}px`);
+          memoryStage.style.setProperty('--memory-main-y', `${(-memoryTiltY * 11 * tiltScale).toFixed(1)}px`);
+          memoryStage.style.setProperty('--memory-collage-x', `${(memoryTiltX * 21 * tiltScale).toFixed(1)}px`);
+          memoryStage.style.setProperty('--memory-collage-y', `${(memoryTiltY * 14 * tiltScale).toFixed(1)}px`);
+        };
+        const queueMemoryTilt = () => {
+          if (!memoryTiltFrame) memoryTiltFrame = window.requestAnimationFrame(applyMemoryTilt);
+        };
+        const setMemoryTiltFromPoint = (clientX, clientY) => {
+          const rect = memoryStage.getBoundingClientRect();
+          if (!rect.width || !rect.height) return;
+          memoryTiltX = Math.max(-1, Math.min(1, (clientX - rect.left) / rect.width - 0.5));
+          memoryTiltY = Math.max(-1, Math.min(1, (clientY - rect.top) / rect.height - 0.5));
+          queueMemoryTilt();
+        };
+        const resetMemoryTilt = () => {
+          memoryTiltX = 0;
+          memoryTiltY = 0;
+          if (memoryTiltFrame) window.cancelAnimationFrame(memoryTiltFrame);
+          memoryTiltFrame = 0;
+          applyMemoryTilt();
+        };
+        memoryStage.addEventListener('pointermove', event => {
+          if (event.pointerType !== 'mouse' && event.pointerId !== memoryTouchPointer) return;
+          if (event.pointerType !== 'mouse' && memoryTouchPointer !== null) {
+            const distance = Math.hypot(event.clientX - memoryPointerStartX, event.clientY - memoryPointerStartY);
+            if (distance > 10) memoryOpenGuardUntil = performance.now() + 320;
+          }
+          setMemoryTiltFromPoint(event.clientX, event.clientY);
+        }, { passive: true });
+        memoryStage.addEventListener('pointerdown', event => {
+          if (event.pointerType === 'mouse') return;
+          memoryTouchPointer = event.pointerId;
+          memoryPointerStartX = event.clientX;
+          memoryPointerStartY = event.clientY;
+          setMemoryTiltFromPoint(event.clientX, event.clientY);
+        }, { passive: true });
+        const releaseMemoryTouch = event => {
+          if (event.pointerType === 'mouse' || event.pointerId !== memoryTouchPointer) return;
+          memoryTouchPointer = null;
+          resetMemoryTilt();
+        };
+        memoryStage.addEventListener('pointerup', releaseMemoryTouch, { passive: true });
+        memoryStage.addEventListener('pointercancel', releaseMemoryTouch, { passive: true });
+        memoryStage.addEventListener('pointerleave', event => {
+          if (event.pointerType === 'mouse') resetMemoryTilt();
+          else releaseMemoryTouch(event);
+        });
+      }
+      memoryCards.forEach(card => {
+        const celebrateMemory = event => {
+          if (!reduceMotion) {
+            const rect = card.getBoundingClientRect();
+            const x = event.type === 'click' ? event.clientX : rect.left + rect.width / 2;
+            const y = event.type === 'click' ? event.clientY : rect.top + rect.height / 2;
+            spawnBurst(x, y, {
+              count: 34,
+              power: 4.3,
+              lifespan: 1.1,
+              gravity: 0.018,
+              colors: ['#fff4d8', '#ffe1a6', '#f6c777', '#c1b4ff', '#ffb2c2']
+            });
+            if (memoryScene) {
+              memoryScene.classList.remove('is-celebrating');
+              void memoryScene.offsetWidth;
+              memoryScene.classList.add('is-celebrating');
+              window.setTimeout(() => memoryScene.classList.remove('is-celebrating'), 720);
+            }
+            showToast('这一刻，已收进星光里 ✦');
+          }
+        };
+        const openMemory = event => {
+          if (performance.now() < memoryOpenGuardUntil) return;
+          celebrateMemory(event);
+          openPhotoDialog(card);
+        };
+        card.addEventListener('click', openMemory);
+        card.addEventListener('keydown', event => {
+          if (event.key !== 'Enter' && event.key !== ' ') return;
+          event.preventDefault();
+          openMemory(event);
+        });
+      });
 
       const skyCanvas = $('#sky');
       const skyCtx = skyCanvas ? skyCanvas.getContext('2d') : null;
@@ -4126,10 +5861,6 @@
 
       sizeSky();
       drawSky();
-      window.addEventListener('resize', () => {
-        sizeSky();
-        drawSky(performance.now());
-      });
 
       const fxCanvas = $('#fx');
       const fxCtx = fxCanvas ? fxCanvas.getContext('2d') : null;
@@ -4139,7 +5870,7 @@
       let rockets = [];
       let fxFrame = 0;
       let fxLast = 0;
-      const fireworkColors = ['#ffe1a6', '#ff8da8', '#c1b4ff', '#8be7d0', '#ffb890', '#fff7e8'];
+      const fireworkColors = ['#ffe3aa', '#e9a2b3', '#b9acf1', '#91cdbf', '#e9b790', '#fff8ec'];
       const maxParticles = lowPowerDevice ? 190 : 360;
 
       function sizeFx() {
@@ -4330,7 +6061,6 @@
       }
 
       sizeFx();
-      window.addEventListener('resize', sizeFx);
       document.addEventListener('visibilitychange', () => {
         if (!document.hidden) return;
         if (fxFrame) window.cancelAnimationFrame(fxFrame);
@@ -4575,12 +6305,24 @@
         spawnMeteorBurst(lowPowerDevice ? 7 : 13);
       }
 
-      window.addEventListener('resize', () => {
-        if (!meteorActive) return;
-        sizeMeteorSky();
-        meteors = [];
-        spawnMeteorBurst(2);
-      });
+      let viewportRefreshTimer = 0;
+      function scheduleViewportRefresh() {
+        window.clearTimeout(viewportRefreshTimer);
+        viewportRefreshTimer = window.setTimeout(() => {
+          sizeSky();
+          drawSky(performance.now());
+          sizeFx();
+          if (meteorActive) {
+            sizeMeteorSky();
+            meteors = [];
+            spawnMeteorBurst(2);
+          }
+        }, 120);
+      }
+
+      window.addEventListener('resize', scheduleViewportRefresh, { passive: true });
+      window.addEventListener('orientationchange', () => window.setTimeout(scheduleViewportRefresh, 160), { passive: true });
+
       document.addEventListener('visibilitychange', () => {
         if (document.hidden) {
           skyActive = false;
@@ -4597,7 +6339,33 @@
         }
       });
 
+      document.addEventListener('pagehide', () => {
+        stopAmbient();
+        if (audioCtx && audioCtx.state === 'running') audioCtx.suspend().catch(() => {});
+        skyActive = false;
+        if (skyFrame) window.cancelAnimationFrame(skyFrame);
+        skyFrame = 0;
+        stopMeteorLoop();
+        if (fxFrame) window.cancelAnimationFrame(fxFrame);
+        fxFrame = 0;
+        particles = [];
+        rockets = [];
+      });
+
+      window.addEventListener('pageshow', event => {
+        if (!event.persisted || document.hidden) return;
+        resumeSoundIfNeeded();
+        scheduleViewportRefresh();
+        if (body.classList.contains('is-cosmic')) setCosmosActive(true);
+        if (meteorActive) {
+          meteorSpawnTimer = 0;
+          spawnMeteorBurst(2);
+          startMeteorLoop();
+        }
+      });
+
       const finalSlide = $('#final');
+      const finalPhaseEls = $$('.final__phases i', finalSlide || document);
       let finalVisible = false;
       let finalSequenceTimers = [];
 
@@ -4606,23 +6374,48 @@
         finalSequenceTimers = [];
       }
 
-      function startFinalSequence() {
+      function setFinalPhase(phase) {
+        finalPhaseEls.forEach((element, index) => {
+          element.classList.toggle('is-active', index === phase - 1);
+        });
+      }
+
+      function startFinalSequence({ replay = false } = {}) {
         clearFinalSequenceTimers();
         setCosmosActive(false);
         setMeteorActive(false);
-        const starDelay = reduceMotion ? 0 : 2450;
-        const meteorDelay = reduceMotion ? 0 : 3900;
+        if (!finalSlide) return;
+        finalSlide.classList.add('is-sequence-armed');
+        finalSlide.classList.remove('is-phase-fireworks', 'is-phase-cosmos', 'is-phase-meteors');
+        if (!replay) finalSlide.classList.remove('is-copy-ready');
+        setFinalPhase(0);
+        const contentDelay = reduceMotion ? 0 : 420;
+        const starDelay = reduceMotion ? 0 : 2400;
+        const meteorDelay = reduceMotion ? 0 : 4100;
         finalSequenceTimers.push(window.setTimeout(() => {
           if (!finalVisible) return;
+          finalSlide.classList.add('is-phase-fireworks');
+          setFinalPhase(1);
           launchFireworks(lowPowerDevice ? 2 : 3);
-        }, reduceMotion ? 0 : 260));
+        }, reduceMotion ? 0 : 160));
         finalSequenceTimers.push(window.setTimeout(() => {
           if (!finalVisible) return;
+          finalSlide.classList.add('is-copy-ready');
+        }, contentDelay));
+        finalSequenceTimers.push(window.setTimeout(() => {
+          if (!finalVisible) return;
+          finalSlide.classList.remove('is-phase-fireworks');
+          finalSlide.classList.add('is-phase-cosmos');
+          setFinalPhase(2);
           setCosmosActive(true);
         }, starDelay));
         finalSequenceTimers.push(window.setTimeout(() => {
           if (!finalVisible) return;
+          finalSlide.classList.remove('is-phase-cosmos');
+          finalSlide.classList.add('is-phase-meteors');
+          setFinalPhase(3);
           setMeteorActive(true);
+          boostMeteorShower();
         }, meteorDelay));
       }
 
@@ -4630,12 +6423,19 @@
         clearFinalSequenceTimers();
         setMeteorActive(false);
         setCosmosActive(false);
+        setFinalPhase(0);
+        if (finalSlide) {
+          finalSlide.classList.remove('is-sequence-armed', 'is-copy-ready', 'is-phase-fireworks', 'is-phase-cosmos', 'is-phase-meteors');
+        }
       }
 
       function setFinalVisible(visible) {
         if (finalVisible === visible) return;
         finalVisible = visible;
-        if (visible) startFinalSequence();
+        if (visible) {
+          awardStar(5);
+          startFinalSequence();
+        }
         else stopFinalSequence();
       }
 
@@ -4665,15 +6465,279 @@
       const finalButton = $('#finalButton');
       if (finalButton) {
         finalButton.addEventListener('click', () => {
-          launchFireworks(3);
           spawnConfetti(44);
           showToast('愿所有美好，都向你奔来 ✦');
-          window.setTimeout(() => {
-            if (!finalVisible) return;
-            setCosmosActive(true);
-            setMeteorActive(true);
-            boostMeteorShower();
-          }, reduceMotion ? 0 : 1350);
+          startFinalSequence({ replay: true });
+        });
+      }
+
+      const memoryCardButton = $('#memoryCardButton');
+      const memoryDialog = $('#memoryDialog');
+      const memoryCardPreview = $('#memoryCardPreview');
+      const memoryDownload = $('#memoryDownload');
+      const memoryDialogClose = $('#memoryDialogClose');
+      const memoryDialogDone = $('#memoryDialogDone');
+      let memoryCardGenerating = false;
+
+      function drawRoundRectPath(ctx, x, y, width, height, radius) {
+        const r = Math.min(radius, width / 2, height / 2);
+        ctx.beginPath();
+        ctx.moveTo(x + r, y);
+        ctx.lineTo(x + width - r, y);
+        ctx.quadraticCurveTo(x + width, y, x + width, y + r);
+        ctx.lineTo(x + width, y + height - r);
+        ctx.quadraticCurveTo(x + width, y + height, x + width - r, y + height);
+        ctx.lineTo(x + r, y + height);
+        ctx.quadraticCurveTo(x, y + height, x, y + height - r);
+        ctx.lineTo(x, y + r);
+        ctx.quadraticCurveTo(x, y, x + r, y);
+        ctx.closePath();
+      }
+
+      function drawArchPath(ctx, x, y, width, height, topRadius, bottomRadius) {
+        ctx.beginPath();
+        ctx.moveTo(x, y + topRadius);
+        ctx.arc(x + topRadius, y + topRadius, topRadius, Math.PI, 0, false);
+        ctx.lineTo(x + width, y + height - bottomRadius);
+        ctx.quadraticCurveTo(x + width, y + height, x + width - bottomRadius, y + height);
+        ctx.lineTo(x + bottomRadius, y + height);
+        ctx.quadraticCurveTo(x, y + height, x, y + height - bottomRadius);
+        ctx.closePath();
+      }
+
+      function drawImageCover(ctx, image, x, y, width, height) {
+        const scale = Math.max(width / image.naturalWidth, height / image.naturalHeight);
+        const sourceWidth = width / scale;
+        const sourceHeight = height / scale;
+        const sourceX = (image.naturalWidth - sourceWidth) / 2;
+        const sourceY = (image.naturalHeight - sourceHeight) / 2;
+        ctx.drawImage(image, sourceX, sourceY, sourceWidth, sourceHeight, x, y, width, height);
+      }
+
+      function drawCanvasSparkle(ctx, x, y, radius, color) {
+        ctx.save();
+        ctx.translate(x, y);
+        ctx.fillStyle = color;
+        ctx.beginPath();
+        ctx.moveTo(0, -radius);
+        ctx.quadraticCurveTo(radius * 0.16, -radius * 0.16, radius, 0);
+        ctx.quadraticCurveTo(radius * 0.16, radius * 0.16, 0, radius);
+        ctx.quadraticCurveTo(-radius * 0.16, radius * 0.16, -radius, 0);
+        ctx.quadraticCurveTo(-radius * 0.16, -radius * 0.16, 0, -radius);
+        ctx.fill();
+        ctx.restore();
+      }
+
+      function loadCanvasImage(source) {
+        return new Promise((resolve, reject) => {
+          const image = new Image();
+          image.onload = () => resolve(image);
+          image.onerror = reject;
+          image.src = source;
+        });
+      }
+
+      function drawMemoryCardBackdrop(ctx, serif) {
+        const background = ctx.createLinearGradient(0, 0, 1080, 1440);
+        background.addColorStop(0, '#0b0c1c');
+        background.addColorStop(0.5, '#171127');
+        background.addColorStop(1, '#090b18');
+        ctx.fillStyle = background;
+        ctx.fillRect(0, 0, 1080, 1440);
+
+        const roseGlow = ctx.createRadialGradient(925, 145, 0, 925, 145, 420);
+        roseGlow.addColorStop(0, 'rgba(255, 140, 166, 0.2)');
+        roseGlow.addColorStop(1, 'rgba(255, 140, 166, 0)');
+        ctx.fillStyle = roseGlow;
+        ctx.fillRect(0, 0, 1080, 700);
+
+        const goldGlow = ctx.createRadialGradient(540, 720, 0, 540, 720, 520);
+        goldGlow.addColorStop(0, 'rgba(246, 199, 119, 0.13)');
+        goldGlow.addColorStop(1, 'rgba(246, 199, 119, 0)');
+        ctx.fillStyle = goldGlow;
+        ctx.fillRect(40, 260, 1000, 980);
+
+        let seed = 11182026;
+        const random = () => {
+          seed = (seed * 1664525 + 1013904223) >>> 0;
+          return seed / 4294967296;
+        };
+        for (let index = 0; index < 190; index += 1) {
+          const x = random() * 1080;
+          const y = random() * 1440;
+          const radius = 0.45 + random() * 1.55;
+          const alpha = 0.16 + random() * 0.58;
+          ctx.fillStyle = `rgba(255, 244, 216, ${alpha.toFixed(3)})`;
+          ctx.beginPath();
+          ctx.arc(x, y, radius, 0, Math.PI * 2);
+          ctx.fill();
+        }
+        [[142, 310, 11], [936, 396, 13], [118, 1115, 9], [951, 1180, 12], [858, 88, 8]].forEach(([x, y, radius]) => {
+          drawCanvasSparkle(ctx, x, y, radius, 'rgba(255, 225, 164, 0.82)');
+        });
+
+        ctx.strokeStyle = 'rgba(246, 199, 119, 0.18)';
+        ctx.lineWidth = 1;
+        drawRoundRectPath(ctx, 42, 42, 996, 1356, 30);
+        ctx.stroke();
+
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.fillStyle = 'rgba(255, 240, 207, 0.62)';
+        ctx.font = '500 17px Georgia, serif';
+        ctx.fillText('NOVEMBER 18 · 2026', 540, 92);
+
+        ctx.fillStyle = '#fff8e9';
+        ctx.font = `600 78px ${serif}`;
+        ctx.fillText('张博冉', 540, 185);
+
+        const titleGradient = ctx.createLinearGradient(350, 0, 730, 0);
+        titleGradient.addColorStop(0, '#ffe3aa');
+        titleGradient.addColorStop(0.56, '#e9a2b3');
+        titleGradient.addColorStop(1, '#b9acf1');
+        ctx.fillStyle = titleGradient;
+        ctx.font = `500 38px ${serif}`;
+        ctx.fillText('生日快乐', 540, 246);
+
+        ctx.fillStyle = 'rgba(255, 242, 215, 0.44)';
+        ctx.font = '500 11px Georgia, serif';
+        ctx.fillText('A STAR NAMED ZHANG BORAN', 540, 294);
+      }
+
+      function drawMemoryCardPhoto(ctx, photo) {
+        const frameX = 250;
+        const frameY = 332;
+        const frameWidth = 580;
+        const frameHeight = 736;
+        ctx.save();
+        ctx.shadowColor = 'rgba(0, 0, 0, 0.62)';
+        ctx.shadowBlur = 52;
+        ctx.shadowOffsetY = 28;
+        ctx.fillStyle = '#f8ead0';
+        drawArchPath(ctx, frameX, frameY, frameWidth, frameHeight, frameWidth / 2, 19);
+        ctx.fill();
+        ctx.restore();
+
+        const innerX = frameX + 12;
+        const innerY = frameY + 12;
+        const innerWidth = frameWidth - 24;
+        const innerHeight = frameHeight - 24;
+        ctx.save();
+        drawArchPath(ctx, innerX, innerY, innerWidth, innerHeight, innerWidth / 2, 13);
+        ctx.clip();
+        drawImageCover(ctx, photo, innerX, innerY, innerWidth, innerHeight);
+        const photoShade = ctx.createLinearGradient(0, innerY + innerHeight * 0.65, 0, innerY + innerHeight);
+        photoShade.addColorStop(0, 'rgba(7, 8, 18, 0)');
+        photoShade.addColorStop(1, 'rgba(7, 8, 18, 0.28)');
+        ctx.fillStyle = photoShade;
+        ctx.fillRect(innerX, innerY, innerWidth, innerHeight);
+        ctx.restore();
+
+        ctx.strokeStyle = 'rgba(255, 242, 207, 0.92)';
+        ctx.lineWidth = 2;
+        drawArchPath(ctx, frameX, frameY, frameWidth, frameHeight, frameWidth / 2, 19);
+        ctx.stroke();
+
+        const sealGradient = ctx.createRadialGradient(845, 980, 3, 845, 1013, 47);
+        sealGradient.addColorStop(0, '#fff8e7');
+        sealGradient.addColorStop(0.62, '#f3c978');
+        sealGradient.addColorStop(1, '#c78745');
+        ctx.save();
+        ctx.shadowColor = 'rgba(0, 0, 0, 0.4)';
+        ctx.shadowBlur = 28;
+        ctx.shadowOffsetY = 12;
+        ctx.fillStyle = sealGradient;
+        ctx.beginPath();
+        ctx.arc(845, 1013, 47, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.restore();
+        ctx.fillStyle = '#3d2919';
+        ctx.font = '600 30px Georgia, serif';
+        ctx.fillText('18', 845, 1004);
+        ctx.font = '600 8px Georgia, serif';
+        ctx.fillText('NOV', 845, 1032);
+      }
+
+      function drawMemoryCardFooter(ctx, serif) {
+        ctx.fillStyle = '#f8ead1';
+        ctx.font = `500 30px ${serif}`;
+        ctx.fillText('愿新的一岁，眼里有光，心里有海。', 540, 1160);
+        ctx.strokeStyle = 'rgba(246, 199, 119, 0.34)';
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        ctx.moveTo(430, 1205);
+        ctx.lineTo(650, 1205);
+        ctx.stroke();
+        ctx.fillStyle = '#f3cb80';
+        ctx.font = `500 22px ${serif}`;
+        ctx.fillText('— 一直希望你快乐的人', 540, 1251);
+        ctx.fillStyle = 'rgba(255, 241, 215, 0.56)';
+        ctx.font = '500 15px Georgia, serif';
+        ctx.fillText('11 / 18 / 2026 · MADE WITH LOVE', 540, 1326);
+        const shareUrl = /^https?:$/.test(window.location.protocol)
+          ? `${window.location.host}${window.location.pathname}`.replace(/\/$/, '')
+          : 'EX-SPIRIT.GITHUB.IO/ZBR-BIRTHDAY';
+        ctx.fillStyle = 'rgba(255, 241, 215, 0.34)';
+        ctx.font = '500 12px Georgia, serif';
+        ctx.fillText(shareUrl.toUpperCase(), 540, 1362);
+      }
+      async function buildMemoryCard() {
+        if (document.fonts && document.fonts.ready) await document.fonts.ready;
+        const photo = await loadCanvasImage('./zhang-boran-memory.jpg');
+        const canvas = document.createElement('canvas');
+        canvas.width = 1080;
+        canvas.height = 1440;
+        const ctx = canvas.getContext('2d');
+        const serif = 'Songti SC, STSong, Noto Serif SC, SimSun, serif';
+        drawMemoryCardBackdrop(ctx, serif);
+        drawMemoryCardPhoto(ctx, photo);
+        drawMemoryCardFooter(ctx, serif);
+        return canvas.toDataURL('image/png');
+      }
+
+      if (memoryCardButton && memoryDialog) {
+        memoryCardButton.addEventListener('click', async () => {
+          if (memoryCardGenerating) return;
+          memoryCardGenerating = true;
+          memoryCardButton.disabled = true;
+          memoryCardButton.setAttribute('aria-busy', 'true');
+          try {
+            const imageUrl = await buildMemoryCard();
+            if (memoryCardPreview) memoryCardPreview.src = imageUrl;
+            if (memoryDownload) {
+              memoryDownload.href = imageUrl;
+              memoryDownload.classList.remove('is-disabled');
+              memoryDownload.setAttribute('aria-disabled', 'false');
+            }
+            if (typeof memoryDialog.showModal === 'function') memoryDialog.showModal();
+            else memoryDialog.setAttribute('open', '');
+            if (!reduceMotion) {
+              spawnConfetti(26);
+              launchFireworks(1);
+            }
+            showToast('今晚的记忆卡已经准备好，可以保存啦 ✦');
+          } catch (error) {
+            void error;
+            showToast('记忆卡暂时没有生成成功，请通过 GitHub Pages 网页打开后再试一次');
+          } finally {
+            memoryCardGenerating = false;
+            memoryCardButton.disabled = false;
+            memoryCardButton.removeAttribute('aria-busy');
+          }
+        });
+      }
+
+      function closeMemoryDialog() {
+        if (memoryDialog && memoryDialog.open) memoryDialog.close();
+      }
+
+      if (memoryDialogClose) memoryDialogClose.addEventListener('click', closeMemoryDialog);
+      if (memoryDialogDone) memoryDialogDone.addEventListener('click', closeMemoryDialog);
+      if (memoryDialog) {
+        memoryDialog.addEventListener('click', event => {
+          const rect = memoryDialog.getBoundingClientRect();
+          const inside = event.clientX >= rect.left && event.clientX <= rect.right && event.clientY >= rect.top && event.clientY <= rect.bottom;
+          if (!inside) closeMemoryDialog();
         });
       }
     })();
